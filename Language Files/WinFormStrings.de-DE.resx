@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmImageSettings_lblScaling" xml:space="preserve">
+    <value>Skalieren</value>
+    <comment>Scaling</comment>
+  </data>
+  <data name="frmImageSettings_lblBrightness" xml:space="preserve">
+    <value>Helligkeit</value>
+    <comment>Brightness</comment>
+  </data>
+  <data name="frmImageSettings_lblContrast" xml:space="preserve">
+    <value>Kontrast</value>
+    <comment>Contrast</comment>
+  </data>
+  <data name="frmImageSettings_lblResolution" xml:space="preserve">
+    <value>Auflösung</value>
+    <comment>Resolution</comment>
+  </data>
+  <data name="frmImageSettings_tbScalingToolTip" xml:space="preserve">
+    <value>Bild auf den gewählten Prozentsatz skalieren</value>
+    <comment>Scale the image to the selected percentage</comment>
+  </data>
+  <data name="frmImageSettings_txtScalingToolTip" xml:space="preserve">
+    <value>Prozentsatz zum Skalieren eingeben. Der Wert muss zwischen1 und 200 liegen</value>
+    <comment>Enter the scaling percentage. Value must be between 1 and 200</comment>
+  </data>
+  <data name="mainFrm_lblCopies" xml:space="preserve">
+    <value>Anzahl Kopien</value>
+    <comment>N° of copies</comment>
+  </data>
+  <data name="mainFrm_lblScanner" xml:space="preserve">
+    <value>Scanner</value>
+    <comment>Scanner</comment>
+  </data>
+  <data name="mainFrm_lblPrinter" xml:space="preserve">
+    <value>Drucker</value>
+    <comment>Printer</comment>
+  </data>
+  <data name="frmImageSettings_lblDPI" xml:space="preserve">
+    <value>DPI</value>
+    <comment>DPI</comment>
+  </data>
+  <data name="mainFrm_lblPaperSize" xml:space="preserve">
+    <value>Papiergröße</value>
+    <comment>Paper Size</comment>
+  </data>
+  <data name="Msg_ExceptionInDriver" xml:space="preserve">
+    <value>Es gab ein Fehler im Scannertreiber. Bitte achten Sie darauf, dass der Treiber aktualisiert wird und mit Ihrer Windows-Version kompatibel ist.</value>
+    <comment>There was an error in the scanner driver. Please make sure that the driver is updated and is compatible with your Windows version.</comment>
+  </data>
+  <data name="AboutBox_lblDescription" xml:space="preserve">
+    <value>Kombinieren Sie Ihren Scanner und Drucker zu einem leistungsstarken Fotokopierer.</value>
+    <comment>Combine your scanner and printer into a powerful photocopier.</comment>
+  </data>
+  <data name="mainFrm_chkDuplex" xml:space="preserve">
+    <value>Duplex-Verfahren</value>
+    <comment>Duplex acquisition</comment>
+  </data>
+  <data name="frmImageSettings_chkCenter" xml:space="preserve">
+    <value>Bild zentrieren</value>
+    <comment>Center image</comment>
+  </data>
+  <data name="frmImageSettings_chkCenterToolTip" xml:space="preserve">
+    <value>Wenn aktiviert, $safeprojectname$ druckt das Bild in der Mitte der Seite, sonst wird das Bild an der oberen linken Ecke gedruckt.</value>
+    <comment>If checked, $safeprojectname$ prints the image in the center of the page, otherwise the image will be printed from the upper left corner.</comment>
+  </data>
+  <data name="mainFrm_chkDuplexToolTip" xml:space="preserve">
+    <value>Genutzt mit Einzugsscanner. Teilt dem Scanner mit, dass das Duplex-Verfahren genutzt werden soll</value>
+    <comment>Used with ADF, tells the scanner to use duplex acquisition</comment>
+  </data>
+  <data name="mainFrm_chkMultipageToolTip" xml:space="preserve">
+    <value>MEHRSEITEN-VERFAHREN (CTRL + M) $safeprojectname$ wartet bis der Benutzer die Seite auf der Glasplatte (oder dem Einzugsscanner) für einen weiteren Durchgang geändert hat. Sie können mehrere Seiten einscannen und alle zusammen ausdrucken oder in eine PDF-Datei speichern.</value>
+    <comment>MULTIPAGE ACQUISITION (CTRL + M)
+$safeprojectname$ will wait for the user to change the page on the flatbed (or ADF) to start another acquisition.
+You can scan several page at a time and print them all together or save them in a single PDF file.</comment>
+  </data>
+  <data name="mainFrm_chkPDFToolTip" xml:space="preserve">
+    <value>Ausgabe als PDF speichern (CTRL +P)</value>
+    <comment>Save the output to PDF (CTRL +P)</comment>
+  </data>
+  <data name="mainFrm_chkSaveToFileToolTip" xml:space="preserve">
+    <value>Bild in eine Datei speichern (CTRL + F)</value>
+    <comment>Save the image to a file (CTRL + F)</comment>
+  </data>
+  <data name="Msg_FileError" xml:space="preserve">
+    <value>$safeprojectname$ kann die Datei 
+{0} nicht schreiben. Prüfen Sie, dass $safeprojectname$ Schreibzugriff im Pfad hat oder die Datei nicht geöffnet ist.</value>
+    <comment>$safeprojectname$ can't write to file
+
+{0}
+
+Check that $safeprojectname$ has write access to the path or that the file is not open.</comment>
+  </data>
+  <data name="Msg_FileAlreadyExists" xml:space="preserve">
+    <value>Die Datei {0} existiert bereits. Wollen Sie die Datei überschreiben?</value>
+    <comment>The file {0}
+already exists. Would you like to replace it?</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowseFile" xml:space="preserve">
+    <value>Durchsuchen...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowsePDF" xml:space="preserve">
+    <value>Durchsuchen...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenFile" xml:space="preserve">
+    <value>Öffnen nach dem Scannen</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenPDF" xml:space="preserve">
+    <value>Öffnen nach dem Scannen</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToFile" xml:space="preserve">
+    <value>Beim Speichern in eine Datei:</value>
+    <comment>When saving to file:</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToPDF" xml:space="preserve">
+    <value>Beim Speichern als PDF</value>
+    <comment>When saving to PDF</comment>
+  </data>
+  <data name="SettingsDialog_rbAskFile" xml:space="preserve">
+    <value>Immer fragen</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbAskPDF" xml:space="preserve">
+    <value>Immer fragen</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbPathFile" xml:space="preserve">
+    <value>Im folgenden Pfad speichern</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_rbPathPDF" xml:space="preserve">
+    <value>Im folgenden Pfad speichern</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_tabFileSettings" xml:space="preserve">
+    <value>Datei-Einstellungen</value>
+    <comment>File Settings</comment>
+  </data>
+  <data name="Msg_CancelAcquisition" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie den Vorgang abbrechen möchten? Klicken Sie auf Ja, wenn Sie fortsetzen möchten.</value>
+    <comment>Are you sure you want to cancel the operation? Click Yes if you are sure to proceed.</comment>
+  </data>
+  <data name="Msg_CantOpenfile" xml:space="preserve">
+    <value>$safeprojectname$ kann das vordefinierte Programm nicht öffnen. Folgender Fehler:{0}</value>
+    <comment>$safeprojectname$ couldn't launch the predefined program for the following reason:
+
+{0}</comment>
+  </data>
+  <data name="SettingsDialog" xml:space="preserve">
+    <value>Optionen</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SettingsDialog_btnCancel" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
+    <comment>&amp;Cancel</comment>
+  </data>
+  <data name="SettingsDialog_btnOk" xml:space="preserve">
+    <value>&amp;OK</value>
+    <comment>&amp;OK</comment>
+  </data>
+  <data name="SettingsDialog_cboLanguageToolTip" xml:space="preserve">
+    <value>Wählen Sie eine der verfügbaren Sprachen aus.
+Um eine zusätzliche Sprache zu installieren, laden sie diese von der $safeprojectname$-Homepage herunter und kopieren Sie den Ordner xx-XX in den $safeprojectname$-Programmordner.</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPos" xml:space="preserve">
+    <value>Fensterposition speichern</value>
+    <comment>Remember window position after restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPosToolTip" xml:space="preserve">
+    <value>Falls diese Option gewählt ist, wird das $safeprojectname$-Programmfenster an der gleichen Stelle auf dem Bildschirm angezeigt, an der es sich zum Zeitpunkt des Schließens befunden hat.</value>
+    <comment>If this option is enabled, $safeprojectname$ window will be shown in the position it was when it was closed.</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguage" xml:space="preserve">
+    <value>Sprache</value>
+    <comment>Language</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguageToolTip" xml:space="preserve">
+    <value>Wählen Sie eine der verfügbaren Sprachen aus.
+Um eine zusätzliche Sprache zu installieren, laden sie diese von der $safeprojectname$-Homepage herunter und kopieren Sie den Ordner xx-XX in den $safeprojectname$-Programmordner.</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="frmImageSettings" xml:space="preserve">
+    <value>Bildeinstellungen</value>
+    <comment>Image Settings</comment>
+  </data>
+  <data name="frmImageSettings_lblPerc" xml:space="preserve">
+    <value>%</value>
+    <comment>%</comment>
+  </data>
+  <data name="frmImageSettings_tbBrightnessToolTip" xml:space="preserve">
+    <value>Definiert den Helligkeitswert.</value>
+    <comment>Set brightness value.</comment>
+  </data>
+  <data name="frmImageSettings_tbContrastToolTip" xml:space="preserve">
+    <value>Definiert den Kontrastwert.</value>
+    <comment>Set contrast value.</comment>
+  </data>
+  <data name="frmImageSettings_txtBrightnessToolTip" xml:space="preserve">
+    <value>Definiert den Helligkeitswert.
+Stellen Sie einen Wert zwischen -100 (dunkel) und 100 (hell) ein.</value>
+    <comment>Set brightness value. Enter a value between -100 (darkest) and 100 (brightest)</comment>
+  </data>
+  <data name="frmImageSettings_txtContrastToolTip" xml:space="preserve">
+    <value>Definiert den Kontrastwert.
+Stellen Sie einen Wert zwischen -100 (gering) und 100 (hoch) ein.</value>
+    <comment>Set contrast value.  Enter a value from -100 (darker) to 100 (brighter)</comment>
+  </data>
+  <data name="mainFrm_btnCopyToolTip" xml:space="preserve">
+    <value>Kopiervorgang starten (Strg+C)</value>
+    <comment>Start copy process (CTRL+C)</comment>
+  </data>
+  <data name="mainFrm_btnImageSettings" xml:space="preserve">
+    <value>Bildeinstellungen &gt;&gt;</value>
+    <comment>Image Settings &gt;&gt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsHide" xml:space="preserve">
+    <value>Bildeinstellungen &lt;&lt;</value>
+    <comment>Image Settings &lt;&lt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsToolTip" xml:space="preserve">
+    <value>Zeigt / versteckt die erweiterten Bildeinstellungen
+(Helligkeit, Kontrast, Qualität, Skalierung)
+(Strg+I)</value>
+    <comment>Shows/Hides advanced image settings, which include
+Brightness, Contrast, Quality and enlargement (CTRL+I)</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetup" xml:space="preserve">
+    <value>&amp;Druckeinstellungen …</value>
+    <comment>&amp;Printer options...</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetupToolTip" xml:space="preserve">
+    <value>Drucker und Druckeinstellungen ändern.</value>
+    <comment>Change printer and printing options</comment>
+  </data>
+  <data name="mainFrm_btnScanModes" xml:space="preserve">
+    <value>Andere Scan-Modi</value>
+    <comment>Other Scan Modes</comment>
+  </data>
+  <data name="mainFrm_btnScanModesToolTip" xml:space="preserve">
+    <value>Andere Scannermodelle anzeigen</value>
+    <comment>Shows other scan modes</comment>
+  </data>
+  <data name="mainFrm_btnSelScanner" xml:space="preserve">
+    <value>Wähle &amp;Scanner aus</value>
+    <comment>Choose &amp;scanner...</comment>
+  </data>
+  <data name="mainFrm_btnSelScannerToolTip" xml:space="preserve">
+    <value>Zeigt einen Scanner-Auswahldialog</value>
+    <comment>Shows a dialog to choose a different scanner</comment>
+  </data>
+  <data name="mainFrm_btnSettings" xml:space="preserve">
+    <value>&amp;Einstellungen</value>
+    <comment>&amp;Settings</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem0" xml:space="preserve">
+    <value>Farbe</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem1" xml:space="preserve">
+    <value>Schwarz-Weiß</value>
+    <comment>Black &amp; White</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeToolTip" xml:space="preserve">
+    <value>Druckmodus definieren</value>
+    <comment>Set printing method</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem0" xml:space="preserve">
+    <value>Farbe</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem1" xml:space="preserve">
+    <value>Graustufen</value>
+    <comment>Grayscale</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem2" xml:space="preserve">
+    <value>Text</value>
+    <comment>Text</comment>
+  </data>
+  <data name="mainFrm_cboScanModeToolTip" xml:space="preserve">
+    <value>Wählen Sie den Scanmodus aus: 
+FARBE - Erfasst das eingelegte Dokument in Farbe. Der Druckmodus wird automatisch auf Farbdruck eingestellt.
+GRAUSTUFEN - Erfasst das eingelegte Dokument in Graustufen. Der Scanvorgang benötigt weniger Zeit. Der Druckmodus wird automatisch auf Schwarz-Weiß eingestellt.
+TEXT - Erfasst das eingelegte Dokument in Schwarz-Weiß. Dies ist die schnellste Scanmethode (nützlich z.B. für Briefe, Bücher oder Datenblätter)</value>
+    <comment>Choose the scanning method: 
+COLOURS - Acquired image will be full-color, printing mode will be set to color automatically
+GRAYSCALE - Acquired image will be in grayscale. Scan will be faster. Printer automatically set to Black &amp; White
+TEXT - Acquired image will be black &amp; white. This is the fasted method, useful for text, books and copies</comment>
+  </data>
+  <data name="mainFrm_chkPreview" xml:space="preserve">
+    <value>Vorschau</value>
+    <comment>Preview</comment>
+  </data>
+  <data name="mainFrm_chkPreviewToolTip" xml:space="preserve">
+    <value>Falls diese Option gewählt ist, wird bei einem Klick auf die Kopiertaste zunächst ein Vorschaudialog gezeigt, in dem Sie die zu scannende Fläche vor dem Scanvorgang einschränken können.</value>
+    <comment>Shows a dialog to select the area to be scanned</comment>
+  </data>
+  <data name="mainFrm_llblAbout" xml:space="preserve">
+    <value>Über $safeprojectname$</value>
+    <comment>About $safeprojectname$</comment>
+  </data>
+  <data name="mainFrm_llblSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="mainFrm_nudNCopieToolTip" xml:space="preserve">
+    <value>Anzahl der zu druckenden Kopien</value>
+    <comment>The number of copies to be printed</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabel" xml:space="preserve">
+    <value>Kein Drucker ausgewählt</value>
+    <comment>No printer selected</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabelToolTip" xml:space="preserve">
+    <value>Klicken Sie hier, um die Druckereinstellungen zu ändern</value>
+    <comment>Click to change printer settings</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabel" xml:space="preserve">
+    <value>Kein Scanner ausgewählt</value>
+    <comment>No scanner selected</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabelToolTip" xml:space="preserve">
+    <value>Klicken Sie hier, um einen anderen Scanner auszuwählen</value>
+    <comment>Click to select a different scanner</comment>
+  </data>
+  <data name="Msg_ChooseAScanner" xml:space="preserve">
+    <value>Sie müssen einen Scanner auswählen. Klicken Sie auf Ja, um einen Scanner auszuwählen oder Nein, um $safeprojectname$ zu schließen.</value>
+    <comment>You have to chose a scanner. Click Yes to chose the scanner, or No to close $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_ConnectionError" xml:space="preserve">
+    <value>Es konnte keine Verbindung mit dem Scanner hergestellt werden. Bitte warten Sie einen Moment und wählen Sie Wiederholen.</value>
+    <comment>Could not connect to the scanner, please wait for a while then click Retry.</comment>
+  </data>
+  <data name="Msg_ConnectionLost" xml:space="preserve">
+    <value>Die Verbindung zum Scanner wurde unterbrochen. Bitte schließen Sie das Gerät wieder an den Computer an und wählen Sie Wiederholen.</value>
+    <comment>Connection with the scanner lost. Please connect it to the computer and click Retry.</comment>
+  </data>
+  <data name="Msg_InsertNumber" xml:space="preserve">
+    <value>Bitte geben Sie eine Zahl zwischen {0} und {1} ein.</value>
+    <comment>Please insert a number between -100 and 100.</comment>
+  </data>
+  <data name="Msg_LicenseFileNotFound" xml:space="preserve">
+    <value>Die Datei License.txt konnte im Programmverzeichnis nicht gefunden werden. Sie können den Lizenztext alternativ unter folgender Internetadresse lesen: http://www.gnu.org/licenses/gpl.html (Die Adresse wurde in die Zwischenablage kopiert.)</value>
+    <comment>Impossible to find License.txt in $safeprojectname$ folder. Please make sure the file is in $safeprojectname$ directory or read the license text here http://www.gnu.org/licenses/gpl.html (link copied to clipboard)</comment>
+  </data>
+  <data name="Msg_NoScannerConnected" xml:space="preserve">
+    <value>Es ist kein Scanner an den Computer angeschlossen. Bitte verbinden Sie einen Scanner mit Ihrem Computer und klicken Sie auf Wiederholen.</value>
+    <comment>No scanner connected, please connect a scanner and click Retry.</comment>
+  </data>
+  <data name="Msg_ScannerInUse" xml:space="preserve">
+    <value>Der gewählte Scanner wird zur Zeit von einem anderen Programm verwendet. Bitte schließen Sie diese Anwendung und wählen Sie Wiederholen.</value>
+    <comment>The selected scanner is currently used by another application. Please close the application and click Retry</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettings" xml:space="preserve">
+    <value>Bildeinstellungen zurücksetzen</value>
+    <comment>Reset image settings</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettingsToolTip" xml:space="preserve">
+    <value>Setzt die Bildeinstellungen beim nächsten Programmstart auf Standardwerte zurück.</value>
+    <comment>Reset image settings to their default values on next program restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettings" xml:space="preserve">
+    <value>Bildeinstellungen speichern</value>
+    <comment>Remeber Scan Settings</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettingsToolTip" xml:space="preserve">
+    <value>Behält die Bildeinstellungen beim Neustart bei.</value>
+    <comment>If selected, $safeprojectname$ will maintain image settings on next restart.</comment>
+  </data>
+  <data name="Msg_ResolutionUnavailable" xml:space="preserve">
+    <value>Ein Scanvorgang mit dieser Auflösung ist nicht möglich. Bitte wähle Sie eine andere Auflösung.</value>
+    <comment>This resolution isn't available. Try with a different one.</comment>
+  </data>
+  <data name="Msg_ResolutionError" xml:space="preserve">
+    <value>Beim Setzen der Scanauflösung ist ein Fehler aufgetreten. Bitte versuchen Sie einen Scan mit einer anderen Auflösung und melden Sie dieses Problem im Fehlererfassungssystem von $safeprojectname$ (Bug Tracker).</value>
+    <comment>An error occurred while setting resolution. Please try with another resolution and report this to $safeprojectname$ bug tracker.</comment>
+  </data>
+  <data name="dlgScanMorePages" xml:space="preserve">
+    <value>Weitere Seiten scannen</value>
+    <comment>Scan More Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPage" xml:space="preserve">
+    <value>Eine weitere Seite scannen</value>
+    <comment>Add Another Page</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPageToolTip" xml:space="preserve">
+    <value>Erfasst eine weitere Seite mit den momentanen Einstellungen.</value>
+    <comment>Scans another page with the current settings</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrint" xml:space="preserve">
+    <value>Gescannte Seiten drucken</value>
+    <comment>Print Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrintToolTip" xml:space="preserve">
+    <value>Druckt alle bisher erfassten Dokumente.</value>
+    <comment>Print the acquired images</comment>
+  </data>
+  <data name="dlgScanMorePages_Label1" xml:space="preserve">
+    <value>Wählen Sie, ob Sie noch weitere Seiten erfassen oder die bereits gescannten Dokumente drucken möchten.</value>
+    <comment>Choose if you want to add more pages or if you want to print the acquired pages.</comment>
+  </data>
+  <data name="mainFrm_ScanMultiplePages" xml:space="preserve">
+    <value>Mehrere Seiten scannen</value>
+    <comment>Scan &amp;Multiple Pages</comment>
+  </data>
+  <data name="mainFrm_ScanToFile" xml:space="preserve">
+    <value>Scannen in eine Datei</value>
+    <comment>Scan to &amp;File</comment>
+  </data>
+  <data name="mainFrm_ScanToFileToolTip" xml:space="preserve">
+    <value>Erfasst das eingelegte Dokument und speichert es in einer Datei.</value>
+    <comment>Acquires an image and saves it to a specified file</comment>
+  </data>
+  <data name="frmImageSettings_cboResolutionToolTip" xml:space="preserve">
+    <value>Wählen Sie die Scanauflösung in DPI (dots per inch = Punkte pro Zoll).
+Größere Werte resultieren in einer höheren Bildqualität, verlängern allerdings auch die Scanzeit.
+Werte größer 1000 DPI führen zu sehr langen Scanzeiten (mehrere Minuten).</value>
+    <comment>Select scanner resolution in DPI (dots per inch) higher values
+correspond to higher quality, but also longer acquisition time.
+Setting more than 1000 DPI will require a lot of extra time.</comment>
+  </data>
+  <data name="Msg_UnauthorizedAccess" xml:space="preserve">
+    <value>$safeprojectname$ kann nicht auf den Systemordner (system32) zugreifen. Bitte führen Sie $safeprojectname$ mit Administratorrechten aus, um das Modul WIA-Automatisierung zu installieren.</value>
+  </data>
+  <data name="Msg_InvalidCommandLineParameters" xml:space="preserve">
+    <value>Es wurden ungültige Kommandozeilen-Parameter übergeben. Bitte beachten Sie die Hinweise zur Kommandozeilen-Syntax in der Datei README.txt.</value>
+    <comment>Some invalid command line parameters have been passed. Please check command line parameter syntax in README.txt.</comment>
+  </data>
+  <data name="Msg_SendErrorReport2" xml:space="preserve">
+    <value>Es ist ein unbekannter Fehler aufgetreten:
+
+{0}
+
+Ein Fehlerbericht wurde in die Zwischenablage kopiert.
+Wir würden uns sehr über Ihre Mithilfe zur Verbesserung von $safeprojectname$ freuen.
+Wenn Sie auf OK klicken, wird eine (englische) Internetseite für die Fehlerberichterstattung geöffnet. Bitte kopieren Sie dort den Fehlerbericht mit der Tastenkombination Strg+C in das Feld Description und senden Sie ihn an den Programmierer. Es werden dabei keinerlei persönliche Informationen übertragen.
+Vielen Dank für Ihre Hilfe.</value>
+    <comment>$safeprojectname$ encountered an unhandled exception:
+
+{0}  
+
+We would greatly appreciate your help in making $safeprojectname$ a better application. If you click OK, a web page for bug reporting will be opened. A report of the application status when the exception occurred has been copied to the clipboard. Please paste it in Description Field. No personal information will be sent.
+Thank you very much for your help.</comment>
+  </data>
+  <data name="Msg_Language" xml:space="preserve">
+    <value>Language will be changed on next restart.</value>
+    <comment>DON'T TRANSLATE THIS</comment>
+  </data>
+  <data name="splashScreen_Loading" xml:space="preserve">
+    <value>{0} wird geladen.
+Bitte warten …</value>
+    <comment>{0} is loading. Please wait...</comment>
+  </data>
+  <data name="Msg_AlreadyRunning" xml:space="preserve">
+    <value>$safeprojectname$ wird bereits ausgeführt. Sie können nicht mehr als eine Instanz von $safeprojectname$ ausführen.
+Falls Sie das Programm soeben erst geschlossen haben, warten Sie bitte eine Minute, bis Scanner und Drucker von der Software wieder freigegeben wurden. Anschließend können Sie $safeprojectname$ erneut starten.</value>
+    <comment>$safeprojectname$ is already running. You can't run more than one instance of $safeprojectname$.</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabel" xml:space="preserve">
+    <value>JPEG-Qualität</value>
+    <comment>JPEG Compression</comment>
+  </data>
+  <data name="Msg_WIAUnregistered" xml:space="preserve">
+    <value>Das von $safeprojectname$ benötigte WIA-Automatisierungsmodul wiaaut.dll ist auf Ihrem System nicht registriert. Das Modul wird von Microsoft zur Verfügung gestellt und schädigt Ihr System nicht.
+
+Klicken Sie auf OK um das Modul zu registrieren, anderenfalls klicken Sie auf Abbrechen um $safeprojectname$ zu beenden. Dieser Vorgang benötigt Administratorrechte.</value>
+    <comment>WIA Automation Layer (wiaaut.dll) isn't registered in your system. $safeprojectname$ needs WIA Automation to be registered in order to work properly. Wiaaut.dll is a system file provided by Microsoft and doesn't harm your sistem. 
+
+Click OK if you want $safeprojectname$ to register wiaaut.dll for you, otherwise click Cancel to close $safeprojectname$. This operation requires administrator privileges.</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabelToolTip" xml:space="preserve">
+    <value>Setzt den Kompressionsgrad beim Speichern des Dokuments als JPEG-Bild. Je höher der Wert ist, desto besser die Qualität und desto größer die Datei.</value>
+    <comment>Sets the Compression factor when saving to JPEG image using the Scan to Image function. The higher the value, the better the quality and the bigger the file size.</comment>
+  </data>
+  <data name="Msg_ScannerOffline" xml:space="preserve">
+    <value>Der Scanner scheint aus zu sein. Bitte versuchen Sie, den Scanner neu anzuschließen oder wecken Sie ihn aus dem Standby-Modus auf.</value>
+    <comment>The scanner appears to be offline. Please try to plug the scanner again or to resume it from standby.</comment>
+  </data>
+  <data name="AboutBox_Donate" xml:space="preserve">
+    <value>Spenden mittels PayPal</value>
+    <comment>Donate using PayPal</comment>
+  </data>
+  <data name="AboutBox_Label1" xml:space="preserve">
+    <value>Dieses Programm steht unter der GNU-GPL-Lizenz.</value>
+    <comment>This program is distributed under the terms of GNU GPL License.</comment>
+  </data>
+  <data name="AboutBox_LinkLabel3" xml:space="preserve">
+    <value>Hier klicken, um den Lizenztext zu lesen</value>
+    <comment>Click here to read license text</comment>
+  </data>
+  <data name="Msg_DriverException" xml:space="preserve">
+    <value>Im Scannertreiber ist ein Fehler aufgetreten. Bitte prüfen Sie auf der Internetseite des Scanner-Herstellers, ob Updates vorhanden sind, anderenfalls versuchen Sie, $safeprojectname$ neu zu starten.</value>
+    <comment>An exception occurred in your scanner driver. Please check if updates are available on the scanner manufacturer website, otherwise try to restart $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredCancel" xml:space="preserve">
+    <value>Abbruch</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredInstruction" xml:space="preserve">
+    <value>$safeprojectname$ muss ein Modul registrieren</value>
+    <comment>$safeprojectname$ needs to register a component</comment>
+  </data>
+  <data name="Msg_WiaautMissing" xml:space="preserve">
+    <value>Bitte prüfen Sie, ob die Datei wiaaut.dll im $safeprojectname$-Verzeichnis vorhanden ist.
+Falls sie nicht vorhanden ist, laden Sie $safeprojectname$ erneut herunter.</value>
+    <comment>Please check that wiaaut.dll is located in $safeprojectname$ directory.
+If it isn't, please download $safeprojectname$ again.</comment>
+  </data>
+  <data name="Msg_WIARegistrationSuccessful" xml:space="preserve">
+    <value>$safeprojectname$ hat das WIA-Automatisierungsmodul erfolgreich registriert. Bitte starten Sie $safeprojectname$ neu.</value>
+    <comment>$safeprojectname$ has successfully registered WIA Automation Layer. Please restart $safeprojectname$.</comment>
+  </data>
+  <data name="SettingsDialog_cboBitDepthToolTip" xml:space="preserve">
+    <value>Setzt die Bittiefe für den Farbmodus. Ändern Sie diese Option nur, falls Sie Probleme mit der Einstellung Auto haben.</value>
+    <comment>Set the BitDepth for Color mode. Modify this option only if you get problems with Auto.</comment>
+  </data>
+  <data name="SettingsDialog_lblBitDepth" xml:space="preserve">
+    <value>Erzwingt Bittiefe für den Farbmodus</value>
+    <comment>Force Bit Depth for Color Mode</comment>
+  </data>
+  <data name="frmImageSettings_btnDefault" xml:space="preserve">
+    <value>Standard</value>
+    <comment>Default</comment>
+  </data>
+  <data name="frmImageSettings_btnDefaultToolTip" xml:space="preserve">
+    <value>Setzt alle Bildeinstellungen auf Standardwerte zurück</value>
+    <comment>Sets image settings to their default values</comment>
+  </data>
+  <data name="Console_Help" xml:space="preserve">
+    <value>&gt; icopy.exe [/copy /file /multiplePages ..] [params]
+
+[params] sind die benutzten Parameter. Falls ein Parameter nicht spezifiziert ist, benutzt $safeprojectname$ die gespeicherte Einstellung.
+
+/copy /c				Direktes Kopieren vom Scanner auf den Drucker. Es werden entweder die gespeicherten oder Standardeinstellungen benutzt.
+/file /ScanToFile /f	Scannt in eine Datei. Falls /path (siehe unten) nicht angegeben wird, öffnet sich ein Dialogfenster zum Auswählen des Zielverzeichnisses.
+/multiplePages			Scannt ein mehrseitiges Dokument.
+/copymultiplepages
+
+/resolution -or- /r	[wert]		Gewünschte Auflösung in DPI (z.B. /resolution 100, /r 500).
+/color -or- /col			Farbbild erfassen.
+/grayscale -or- /gray			Graustufenbild erfassen.
+/text -or- /bw				Schwarz-Weiß (Text) erfassen.
+/copies -or- /nc [wert]		Anzahl der zu druckenden Kopien (Standard ist eine Kopie).
+/scaling -or- /s			Skalierung in Prozent (z.B. /s 150) Standardwert: 100.
+/brightness	-or- /b [wert]	Helligkeitswert zwischen -100 und 100.
+/contrast -or -	/cnt [wert]	Kontrastwert zwischen -100 und 100.
+/preview -or- /p				Vorschaumodus
+/path "pfad"					Zielverzeichnis, in das die Bilder gespeichert werden. Pfade mit Leerzeichen müssen in Anführungszeichen stehen
+								(z.B. /path "C:\my folder\file.jpg"). Gültige Dateiendungen sind .jpg, .bmp, .gif, .png.
+/printer "Druckername"			Druckername in Anführungszeichen. 
+				
+HINWEIS: Groß- und Kleinschreibung wird bei dem Parametern ignoriert.
+				
+Beispiele:
+&gt; icopy.exe /copy /r 200 /text
+	Kopiert mit einer Auflösung von 200 DPI im Textmodus mit den Standardwerten für Helligkeit und Kontrast.
+&gt; icopy.exe /file /brightness 0 /contrast 10 /path "C:\my folder\file.jpg"
+	Speichert in die Datei "C:\my folder\file.jpg" mit Helligkeit 0 und Kontrast 10.
+&gt; icopy.exe /copy /printer "Adobe PDF"
+	Druckt über Adobe Acrobat das Dokument als PDF-Datei (sofern Adobe Acrobat installiert).
+
+PARAMETER FÜR FORTGESCHRITTENE
+/wiareg /wr			Registriert das WIA-Modul. Benutzten Sie dies, falls Sie WIA-Fehlermeldungen erhalten.
+/debug /d			Erzeugt eine XML-Datei mit Informationen zum Scanner. Sollte bei jeder Fehlermeldung dabei sein.
+/register /reg		Registriert $safeprojectname$ für die Scanner-Taste.
+/unregister /unreg	Entfernt die $safeprojectname$-Registrierung für die Scanner-Taste.</value>
+  </data>
+  <data name="mainFrm_VersionStatusLabel" xml:space="preserve">
+    <value>Neue Version verfügbar!</value>
+    <comment>New version available!</comment>
+  </data>
+  <data name="mainFrm_VersionStatusLabelToolTip" xml:space="preserve">
+    <value>Klicken Sie hier um auf die Internetseite von $safeprojectname$ zu gelangen und die neueste Version herunter zu laden</value>
+    <comment>Click here to go to $safeprojectname$ website and download the latest version</comment>
+  </data>
+  <data name="frmImageSettings_tbCompressionToolTip" xml:space="preserve">
+    <value>Setzt die JPEG-Kompression</value>
+    <comment>Set JPEG compression (Save to File only)</comment>
+  </data>
+  <data name="mainFrm_chkADF" xml:space="preserve">
+    <value>Automatischer Dokumenteneinzug</value>
+    <comment>Use Document Feeder (ADF)</comment>
+  </data>
+  <data name="mainFrm_chkADFToolTip" xml:space="preserve">
+    <value>Benutzt den automatischen Dokumenteneinzug des Scanners.</value>
+    <comment>Acquire the pages using the Automatic Document Feeder.</comment>
+  </data>
+  <data name="Msg_ScannerWarmingUp" xml:space="preserve">
+    <value>Der Scanner wärmt seine Beleuchtung auf. Bitte warten Sie eine Minute und versuchen es dann erneut.</value>
+    <comment>The scanner is warming up. Please wait a minute, then try again.</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdates" xml:space="preserve">
+    <value>Auf Updates prüfen</value>
+    <comment>Check for updates</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdatesToolTip" xml:space="preserve">
+    <value>Prüft, ob eine neue Version von $safeprojectname$ verfügbar ist. Es werden keine Informationen gesendet. Benötigt eine Internetverbindung.</value>
+    <comment>$safeprojectname$ will check if a newer version is available for download, and will report it to the user. No information is sent. Requires an internet connection.</comment>
+  </data>
+  <data name="SettingsDialog_lblNote" xml:space="preserve">
+    <value>HINWEIS: Ändern Sie die folgenden Einstellungen nur, falls Sie Probleme mit dem erfassten Dokument haben</value>
+    <comment>NOTE Don't change the following setting unless you have problems with the acquired images</comment>
+  </data>
+  <data name="SettingsDialog_tabGeneral" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>General</comment>
+  </data>
+  <data name="SettingsDialog_tabScannerButtons" xml:space="preserve">
+    <value>Scanner-Tasten</value>
+    <comment>Scanner Buttons</comment>
+  </data>
+  <data name="SettingsDialog_btnResetScanSettings" xml:space="preserve">
+    <value>Zurücksetzen</value>
+    <comment>Reset to default</comment>
+  </data>
+</root>

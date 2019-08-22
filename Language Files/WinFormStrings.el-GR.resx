@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SettingsDialog" xml:space="preserve">
+    <value>Επιλογές</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SettingsDialog_btnCancel" xml:space="preserve">
+    <value>Ά&amp;κυρο</value>
+    <comment>&amp;Cancel</comment>
+  </data>
+  <data name="SettingsDialog_btnOk" xml:space="preserve">
+    <value>&amp;Εντάξει</value>
+    <comment>&amp;OK</comment>
+  </data>
+  <data name="SettingsDialog_cboLanguageToolTip" xml:space="preserve">
+    <value>Επιλέξτε μια γλώσσα μεταξύ των εγκατεστημένων.
+Για εγκατάσταση μιας νέας γλώσσας, κάντε λήψη της από
+τον ιστότοπο του $safeprojectname$ και αντιγράψτε τον φάκελο xx-XX
+στο φάκελο του $safeprojectname$</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPos" xml:space="preserve">
+    <value>Απομνημόνευση θέσης παραθύρου στην επανεκκίνηση</value>
+    <comment>Remember window position after restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPosToolTip" xml:space="preserve">
+    <value>Εάν η επιλογή αυτή είναι ενεργοποιημένη,το παράθυρο του $safeprojectname$ θα εμφανιστεί στη θέση που ήταν όταν έκλεισε.</value>
+    <comment>If this option is enabled, $safeprojectname$ window will be shown in the position it was when it was closed.</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguage" xml:space="preserve">
+    <value>Γλώσσα/Language</value>
+    <comment>Language</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguageToolTip" xml:space="preserve">
+    <value>Επιλέξτε μια γλώσσα μεταξύ των εγκατεστημένων.
+Για εγκατάσταση μιας νέας γλώσσας, κάντε λήψη της από
+τον ιστότοπο του $safeprojectname$ και αντιγράψτε τον φάκελο xx-XX
+στο φάκελο του $safeprojectname$</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="frmImageSettings" xml:space="preserve">
+    <value>Ρυθμίσεις εικόνας</value>
+    <comment>Image Settings</comment>
+  </data>
+  <data name="frmImageSettings_lblScaling" xml:space="preserve">
+    <value>Κλίμακα</value>
+    <comment>Scaling</comment>
+  </data>
+  <data name="frmImageSettings_lblBrightness" xml:space="preserve">
+    <value>Φωτεινότητα</value>
+    <comment>Brightness</comment>
+  </data>
+  <data name="frmImageSettings_lblContrast" xml:space="preserve">
+    <value>Αντίθεση</value>
+    <comment>Contrast</comment>
+  </data>
+  <data name="frmImageSettings_lblResolution" xml:space="preserve">
+    <value>Ανάλυση</value>
+    <comment>Resolution</comment>
+  </data>
+  <data name="frmImageSettings_lblPerc" xml:space="preserve">
+    <value>%</value>
+    <comment>%</comment>
+  </data>
+  <data name="frmImageSettings_tbBrightnessToolTip" xml:space="preserve">
+    <value>Ορισμός τιμής φωτεινότητας.</value>
+    <comment>Set brightness value.</comment>
+  </data>
+  <data name="frmImageSettings_tbContrastToolTip" xml:space="preserve">
+    <value>Ορισμός τιμής αντίθεσης.</value>
+    <comment>Set contrast value.</comment>
+  </data>
+  <data name="frmImageSettings_tbScalingToolTip" xml:space="preserve">
+    <value>Διαμόρφωση της εικόνας, στην κλίμακα του επιλεγμένου ποσοστού</value>
+    <comment>Scale the image to the selected percentage</comment>
+  </data>
+  <data name="frmImageSettings_txtBrightnessToolTip" xml:space="preserve">
+    <value>Ορισμός τιμής φωτεινότητας. Εισάγετε έναν αριθμό μεταξύ -100 (σκοτεινότερο) και 100 (φωτεινότερο)</value>
+    <comment>Set brightness value. Enter a value between -100 (darkest) and 100 (brightest)</comment>
+  </data>
+  <data name="frmImageSettings_txtContrastToolTip" xml:space="preserve">
+    <value>Ορισμός τιμής αντίθεσης.  Εισάγετε έναν αριθμό από -100 (σκοτεινότερο) έως 100 (φωτεινότερο)</value>
+    <comment>Set contrast value.  Enter a value from -100 (darker) to 100 (brighter)</comment>
+  </data>
+  <data name="frmImageSettings_txtScalingToolTip" xml:space="preserve">
+    <value>Εισάγετε το ποσοστό της κλίμακας. Η τιμή πρέπει να είναι μεταξύ 1 και 200</value>
+    <comment>Enter the scaling percentage. Value must be between 1 and 200</comment>
+  </data>
+  <data name="mainFrm_btnCopyToolTip" xml:space="preserve">
+    <value>Έναρξη διαδικασίας αντιγραφής (CTRL+S)</value>
+    <comment>Start copy process (CTRL+S)</comment>
+  </data>
+  <data name="mainFrm_btnImageSettings" xml:space="preserve">
+    <value>Ρυθμίσεις εικόνας &gt;&gt;</value>
+    <comment>Image Settings &gt;&gt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsHide" xml:space="preserve">
+    <value>Ρυθμίσεις εικόνας &lt;&lt;</value>
+    <comment>Image Settings &lt;&lt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsToolTip" xml:space="preserve">
+    <value>Εμφάνιση/Απόκρυψη προηγμένων ρυθμίσεων εικόνας, οι οποίες περιλαμβάνουν
+Φωτεινότητα, Αντίθεση, Ποιότητα και Κλίμακα (CTRL+I)</value>
+    <comment>Shows/Hides advanced image settings, which include
+Brightness, Contrast, Quality and Scaling (CTRL+I)</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetup" xml:space="preserve">
+    <value>Επιλογές &amp;εκτυπωτή...</value>
+    <comment>&amp;Printer options...</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetupToolTip" xml:space="preserve">
+    <value>Αλλαγή εκτυπωτή και επιλογών εκτύπωσης </value>
+    <comment>Change printer and printing options</comment>
+  </data>
+  <data name="mainFrm_btnScanModes" xml:space="preserve">
+    <value>Άλλες λειτουργίες σάρωσης</value>
+    <comment>Other Scan Modes</comment>
+  </data>
+  <data name="mainFrm_btnScanModesToolTip" xml:space="preserve">
+    <value>Εμφάνιση άλλων λειτουργιών σάρωσης</value>
+    <comment>Shows other scan modes</comment>
+  </data>
+  <data name="mainFrm_btnSelScanner" xml:space="preserve">
+    <value>Επιλογή &amp;σαρωτή...</value>
+    <comment>Choose &amp;scanner...</comment>
+  </data>
+  <data name="mainFrm_btnSelScannerToolTip" xml:space="preserve">
+    <value>Εμφάνιση ενός διαλόγου για επιλογή διαφορετικού σαρωτή</value>
+    <comment>Shows a dialog to choose a different scanner</comment>
+  </data>
+  <data name="mainFrm_btnSettings" xml:space="preserve">
+    <value>&amp;Ρυθμίσεις</value>
+    <comment>&amp;Settings</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem0" xml:space="preserve">
+    <value>Έγχρωμα</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem1" xml:space="preserve">
+    <value>Ασπρόμαυρα</value>
+    <comment>Black &amp; White</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeToolTip" xml:space="preserve">
+    <value>Ορισμός μεθόδου εκτύπωσης</value>
+    <comment>Set printing method</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem0" xml:space="preserve">
+    <value>Έγχρωμα</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem1" xml:space="preserve">
+    <value>Κλίμακα του γκρι</value>
+    <comment>Grayscale</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem2" xml:space="preserve">
+    <value>Κείμενο</value>
+    <comment>Text</comment>
+  </data>
+  <data name="mainFrm_cboScanModeToolTip" xml:space="preserve">
+    <value>Επιλέξτε τη μέθοδο σάρωσης: 
+ΕΓΧΡΩΜΑ - Η λήψη της εικόνας θα είναι έγχρωμη, η λειτουργία εκτύπωσης θα ρυθμίσει το χρώμα αυτόματα
+ΚΛΙΜΑΚΑ ΓΚΡΙ - Η λήψη της εικόνας θα γίνει σε κλίμακα του γκρι. Η σάρωση είναι ταχύτερη. Ο εκτυπωτής ρυθμίζεται αυτόματα σε ασπρόμαυρο
+ΚΕΙΜΕΝΟ - Η λήψη της εικόνας θα είναι ασπρόμαυρη. Αυτή είναι η ταχύτερη μέθοδος, χρήσιμη για κείμενο, βιβλία και αντίγραφα</value>
+    <comment>Choose the scanning method: 
+COLOURS - Acquired image will be full-color, printing mode will be set to color automatically
+GRAYSCALE - Acquired image will be in grayscale. Scan will be faster. Printer automatically set to Black &amp; White
+TEXT - Acquired image will be black &amp; white. This is the fasted method, useful for text, books and copies</comment>
+  </data>
+  <data name="mainFrm_chkPreview" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+    <comment>Preview</comment>
+  </data>
+  <data name="mainFrm_chkPreviewToolTip" xml:space="preserve">
+    <value>Εμφάνιση ενός διαλόγου για επιλογή της περιοχής σάρωσης</value>
+    <comment>Shows a dialog to select the area to be scanned</comment>
+  </data>
+  <data name="mainFrm_lblCopies" xml:space="preserve">
+    <value>N° αντιγράφων</value>
+    <comment>N° of copies</comment>
+  </data>
+  <data name="mainFrm_lblScanner" xml:space="preserve">
+    <value>Σάρωση</value>
+    <comment>Scanner</comment>
+  </data>
+  <data name="mainFrm_lblPrinter" xml:space="preserve">
+    <value>Εκτύπωση</value>
+    <comment>Printer</comment>
+  </data>
+  <data name="mainFrm_llblAbout" xml:space="preserve">
+    <value>Περί $safeprojectname$</value>
+    <comment>About $safeprojectname$</comment>
+  </data>
+  <data name="mainFrm_llblSettings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="mainFrm_nudNCopieToolTip" xml:space="preserve">
+    <value>Ο αριθμός των αντιγράφων που θα εκτυπωθούν</value>
+    <comment>The number of copies to be printed</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabel" xml:space="preserve">
+    <value>Δεν επιλέχθηκε εκτυπωτής</value>
+    <comment>No printer selected</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabelToolTip" xml:space="preserve">
+    <value>Κάντε κλικ για αλλαγή ρυθμίσεων του εκτυπωτή</value>
+    <comment>Click to change printer settings</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabel" xml:space="preserve">
+    <value>Δεν επιλέχθηκε σαρωτής</value>
+    <comment>No scanner selected</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabelToolTip" xml:space="preserve">
+    <value>Κάντε κλικ για επιλογή διαφορετικού σαρωτή</value>
+    <comment>Click to select a different scanner</comment>
+  </data>
+  <data name="Msg_ChooseAScanner" xml:space="preserve">
+    <value>Πρέπει να επιλέξετε ένα σαρωτή. Πατήστε Ναι για επιλογή του σαρωτή ή  Όχι για κλείσιμο του $safeprojectname$.</value>
+    <comment>You have to chose a scanner. Click Yes to chose the scanner, or No to close $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_ConnectionError" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η σύνδεση με το σαρωτή. Παρακαλώ περιμένετε για λίγο και στη συνέχεια πατήστε το κουμπί Επανάληψη.</value>
+    <comment>Could not connect to the scanner, please wait for a while then click Retry.</comment>
+  </data>
+  <data name="Msg_ConnectionLost" xml:space="preserve">
+    <value>Χάθηκε η σύνδεση με το σαρωτή. Παρακαλώ συνδέστε τον με τον υπολογιστή και πατήστε Επανάληψη.</value>
+    <comment>Connection with the scanner lost. Please connect it to the computer and click Retry.</comment>
+  </data>
+  <data name="Msg_InsertNumber" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε έναν αριθμό μεταξύ {0} και {1}.</value>
+    <comment>Please insert a number between -100 and 100.</comment>
+  </data>
+  <data name="Msg_LicenseFileNotFound" xml:space="preserve">
+    <value>Δεν είναι δυνατό να βρεθεί το License.txt στο φάκελο του $safeprojectname$. Παρακαλώ βεβαιωθείτε ότι το αρχείο βρίσκεται στον κατάλογο του $safeprojectname$ ή διαβάστε το κείμενο της άδειας εδώ http://www.gnu.org/licenses/gpl.html (σύνδεσμος αντιγραμμένος στο Πρόχειρο)</value>
+    <comment>Impossible to find License.txt in $safeprojectname$ folder. Please make sure the file is in $safeprojectname$ directory or read the license text here http://www.gnu.org/licenses/gpl.html (link copied to clipboard)</comment>
+  </data>
+  <data name="Msg_NoScannerConnected" xml:space="preserve">
+    <value>Δεν υπάρχει συνδεδεμένος σαρωτής. Παρακαλώ συνδέστε ένα σαρωτή και πατήστε το κουμπί Επανάληψη.</value>
+    <comment>No scanner connected, please connect a scanner and click Retry.</comment>
+  </data>
+  <data name="Msg_WIAUnregistered" xml:space="preserve">
+    <value>Φαίνεται ότι ορισμένα στοιχεία που χρειάζονται στο $safeprojectname$, δεν είναι καταχωρημένα στο σύστημά σας.
+Για να λειτουργήσει σωστά το $safeprojectname$ χρειάζεται να είναι καταχωρημένο το WIA Automation. 
+
+Πατήστε Εντάξει αν θέλετε το $safeprojectname$ να καταχωρήσει για σας το wiaaut.dll, ειδάλλως πατήστε Άκυρο για κλείσιμο του $safeprojectname$. Αυτή η λειτουργία απαιτεί δικαιώματα διαχειριστή.</value>
+    <comment>It appears that some components needed by $safeprojectname$ are not registered in your system.
+$safeprojectname$ needs WIA Automation to be registered in order to work properly. 
+
+Click OK if you want $safeprojectname$ to register wiaaut.dll for you, otherwise click Cancel to close $safeprojectname$. This operation requires administrator privileges.</comment>
+  </data>
+  <data name="Msg_ScannerInUse" xml:space="preserve">
+    <value>Ο επιλεγμένος σαρωτής αυτήν τη στιγμή χρησιμοποιείται από άλλη εφαρμογή. Κλείστε την εφαρμογή και πατήστε το κουμπί Επανάληψη</value>
+    <comment>The selected scanner is currently used by another application. Please close the application and click Retry</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettings" xml:space="preserve">
+    <value>&amp;Προεπιλογή</value>
+    <comment>&amp;Default</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettingsToolTip" xml:space="preserve">
+    <value>Επαναφορά ρυθμίσεων στις προεπιλεγμένες τιμές τους, στην επόμενη επανεκκίνηση του προγράμματος</value>
+    <comment>Reset settings to their default values on next program restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettings" xml:space="preserve">
+    <value>Απομνημόνευση ρυθμίσεων εικόνας</value>
+    <comment>Remember image settings</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettingsToolTip" xml:space="preserve">
+    <value>Εάν επιλεγεί, το $safeprojectname$ θα διατηρήσει τις ρυθμίσεις εικόνας κατά την επόμενη επανεκκίνηση.</value>
+    <comment>If selected, $safeprojectname$ will maintain image settings on next restart.</comment>
+  </data>
+  <data name="frmImageSettings_lblDPI" xml:space="preserve">
+    <value>DPI</value>
+    <comment>DPI</comment>
+  </data>
+  <data name="Msg_ResolutionUnavailable" xml:space="preserve">
+    <value>Αυτή η ανάλυση δεν είναι διαθέσιμη. Προσπαθήστε με μια διαφορετική.</value>
+    <comment>This resolution isn't available. Try with a different one.</comment>
+  </data>
+  <data name="Msg_ResolutionError" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά τη ρύθμιση της ανάλυσης. Παρακαλώ προσπαθήστε με άλλη ανάλυση και αναφέρετέ το αυτό στον ανιχνευτή σφάλματος του $safeprojectname$.</value>
+    <comment>An error occurred while setting resolution. Please try with another resolution and report this to $safeprojectname$ bug tracker.</comment>
+  </data>
+  <data name="dlgScanMorePages" xml:space="preserve">
+    <value>Σάρωση περισσότερων σελίδων</value>
+    <comment>Scan More Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPage" xml:space="preserve">
+    <value>Προσθήκη άλλης σελίδας</value>
+    <comment>Add Another Page</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPageToolTip" xml:space="preserve">
+    <value>Σαρώσεις άλλης σελίδας με τις τρέχουσες ρυθμίσεις</value>
+    <comment>Scans another page with the current settings</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrint" xml:space="preserve">
+    <value>Εκτύπωση σελίδων</value>
+    <comment>Print Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrintToolTip" xml:space="preserve">
+    <value>Εκτύπωση των ληφθέντων εικόνων</value>
+    <comment>Print the acquired images</comment>
+  </data>
+  <data name="dlgScanMorePages_Label1" xml:space="preserve">
+    <value>Επιλέξτε άν θέλετε να προσθέσετε περισσότερες σελίδες ή αν θέλετε να εκτυπώσετε τις ληφθείσες.</value>
+    <comment>Choose if you want to add more pages or if you want to print the acquired pages.</comment>
+  </data>
+  <data name="mainFrm_ScanMultiplePages" xml:space="preserve">
+    <value>Σάρωση πο&amp;λλαπλών σελίδων</value>
+    <comment>Scan &amp;Multiple Pages</comment>
+  </data>
+  <data name="mainFrm_ScanToFile" xml:space="preserve">
+    <value>Σάρωση σε &amp;αρχείο</value>
+    <comment>Scan to &amp;File</comment>
+  </data>
+  <data name="mainFrm_ScanToFileToolTip" xml:space="preserve">
+    <value>Λήψη μιας εικόνας και αποθήκευσή της σε ένα καθορισμένο αρχείο</value>
+    <comment>Acquires an image and saves it to a specified file</comment>
+  </data>
+  <data name="mainFrm_lblPaperSize" xml:space="preserve">
+    <value>Μέγεθος χαρτιού</value>
+    <comment>Paper Size</comment>
+  </data>
+  <data name="frmImageSettings_cboResolutionToolTip" xml:space="preserve">
+    <value>Επιλογή ανάλυσης σαρωτή σε DPI (κουκκίδες / ίντσα). Υψηλότερες τιμές
+αντιστοιχούν σε υψηλότερη ποιότητα αλλά και μεγαλύτερο χρόνο λήψης.
+Ρύθμιση πάνω από 1000 DPI θα απαιτήσει πολύ περισσότερο χρόνο.</value>
+    <comment>Select scanner resolution in DPI (dots per inch) higher values
+correspond to higher quality, but also longer acquisition time.
+Setting more than 1000 DPI will require a lot of extra time.</comment>
+  </data>
+  <data name="Msg_UnauthorizedAccess" xml:space="preserve">
+    <value>Το $safeprojectname$ πρέπει να το τρέξετε ως διαχειριστής για καταχώρηση του wiaaut.dll</value>
+    <comment>$safeprojectname$ must be run as administrator to register wiaaut.dll.</comment>
+  </data>
+  <data name="Msg_InvalidCommandLineParameters" xml:space="preserve">
+    <value>Έχουν περάσει κάποιες παράμετροι γραμμής εντολών που δεν είναι έγκυρες. Ελέγξτε τη σύνταξη παραμέτρων γραμμής εντολών στο README.txt</value>
+    <comment>Some invalid command line parameters have been passed. Please check command line parameter syntax in README.txt.</comment>
+  </data>
+  <data name="Msg_SendErrorReport2" xml:space="preserve">
+    <value>Το $safeprojectname$ αντιμετώπισε μια εξαίρεση που δεν αντιμετωπίστηκε:
+
+{0}  
+
+Θα εκτιμούσαμε πολύ τη βοήθειά σας για να γίνει το $safeprojectname$ μια καλύτερη εφαρμογή. Εάν κάνετε κλικ στο κουμπί «Εντάξει», θα αποθηκευτεί ένα αρχείο αναφοράς σφάλματος και θα μεταφερθείτε στον ανιχνευτή σφάλματος του $safeprojectname$. Παρακαλούμε αφιερώστε λίγο χρόνο στο νέο σφάλμα και στείλτε το αρχείο που δημιουργήθηκε (το περιεχόμενό του έχει αντιγραφεί στο Πρόχειρο. Μπορείτε επίσης να επικολλήσετε αυτό το σφάλμα στην αναφορά).
+
+Ευχαριστούμε για την υποστήριξή σας!</value>
+    <comment>$safeprojectname$ encountered an unhandled exception:
+
+{0}  
+
+We would greatly appreciate your help in making $safeprojectname$ a better application. If you click OK, an error report file will be saved and you will be redirected to $safeprojectname$ bug tracker. Please take the time to file a new bug and upload the generated file.
+
+Thank you for your support!</comment>
+  </data>
+  <data name="Msg_Language" xml:space="preserve">
+    <value>Language will be changed on next restart</value>
+    <comment>DON'T TRANSLATE THIS</comment>
+  </data>
+  <data name="splashScreen_Loading" xml:space="preserve">
+    <value>Το {0} φορτώνεται.
+Παρακαλώ περιμένετε...</value>
+    <comment>{0} is loading. Please wait...</comment>
+  </data>
+  <data name="Msg_AlreadyRunning" xml:space="preserve">
+    <value>Το $safeprojectname$ εκτελείται ήδη. Δεν μπορείτε να εκτελέσετε περισσότερες από μία συνεδρίες του $safeprojectname$.</value>
+    <comment>$safeprojectname$ is already running. You can't run more than one instance of $safeprojectname$.</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabel" xml:space="preserve">
+    <value>Ποιότητα JPEG</value>
+    <comment>JPEG Quality</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabelToolTip" xml:space="preserve">
+    <value>Ορίστε τον βαθμό συμπίεσης στην αποθήκευση εικόνας JPEG όταν γίνεται χρήση της επιλογής «Σάρωση σε εικόνα». Όσο υψηλότερη τιμή, τόσο καλύτερη ποιότητα και μεγαλύτερο μέγεθος αρχείου.</value>
+    <comment>Sets the Compression factor when saving to JPEG image using the Scan to Image function. The higher the value, the better the quality and the bigger the file size.</comment>
+  </data>
+  <data name="Msg_ScannerOffline" xml:space="preserve">
+    <value>Ο σαρωτής φαίνεται να είναι εκτός σύνδεσης. Δοκιμάστε να συνδέσετε το σαρωτή ξανά ή να τον επαναφέρετε από κατάσταση αναμονής.</value>
+    <comment>The scanner appears to be offline. Please try to plug the scanner again or to resume it from standby.</comment>
+  </data>
+  <data name="AboutBox_Donate" xml:space="preserve">
+    <value>Δωρεά μέσω PayPal</value>
+    <comment>Donate using PayPal</comment>
+  </data>
+  <data name="AboutBox_Label1" xml:space="preserve">
+    <value>Αυτό το πρόγραμμα διανέμεται υπό τους όρους της Γενικής Δημόσιας Άδειας GNU GPL</value>
+    <comment>This program is distributed under the terms of GNU GPL License.</comment>
+  </data>
+  <data name="AboutBox_LinkLabel3" xml:space="preserve">
+    <value>Κλικ εδώ για να διαβάσετε την άδεια χρήσης</value>
+    <comment>Click here to read license text</comment>
+  </data>
+  <data name="Msg_DriverException" xml:space="preserve">
+    <value>Παρουσιάστηκε μια εξαίρεση στο πρόγραμμα οδήγησης του σαρωτή σας. Ελέγξτε αν υπάρχουν διαθέσιμες ενημερώσεις στην ιστοσελίδα του κατασκευαστή του σαρωτή, διαφορετικά δοκιμάστε να κάνετε επανεκκίνηση του $safeprojectname$.</value>
+    <comment>An exception occurred in your scanner driver. Please check if updates are available on the scanner manufacturer website, otherwise try to restart $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredCancel" xml:space="preserve">
+    <value>Άκυρο</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredInstruction" xml:space="preserve">
+    <value>Το $safeprojectname$ πρέπει να καταχωρήσει ένα στοιχείο</value>
+    <comment>$safeprojectname$ needs to register a component</comment>
+  </data>
+  <data name="Msg_WiaautMissing" xml:space="preserve">
+    <value>Παρακαλώ ελέγξτε ότι το wiaaut.dll βρίσκεται στον κατάλογο του $safeprojectname$. 
+Εάν δεν είναι, κάντε λήψη του $safeprojectname$ ξανά.</value>
+    <comment>Please check that wiaaut.dll is located in $safeprojectname$ directory.
+If it isn't, please download $safeprojectname$ again.</comment>
+  </data>
+  <data name="Msg_WIARegistrationSuccessful" xml:space="preserve">
+    <value>Το $safeprojectname$ έχει καταχωρηθεί με επιτυχία στο επίπεδο αυτοματοποίησης WIA. 
+Παρακαλώ κάντε επανεκκίνηση του $safeprojectname$.</value>
+    <comment>$safeprojectname$ has successfully registered WIA Automation Layer. Please restart $safeprojectname$.</comment>
+  </data>
+  <data name="SettingsDialog_cboBitDepthToolTip" xml:space="preserve">
+    <value>Ορίστε το βάθος bit για έγχρωμη λειτουργία. 
+Τροποποιήστε αυτή την επιλογή μόνο εάν έχετε προβλήματα με τη λειτουργία «Αuto».</value>
+    <comment>Set the BitDepth for Color mode. Modify this option only if you get problems with Auto.</comment>
+  </data>
+  <data name="SettingsDialog_lblBitDepth" xml:space="preserve">
+    <value>Δυναμικό βάθος bit για έγχρωμη λειτ.</value>
+    <comment>Force Bit Depth for Color Mode</comment>
+  </data>
+  <data name="frmImageSettings_btnDefault" xml:space="preserve">
+    <value>Προεπιλογή</value>
+    <comment>Default</comment>
+  </data>
+  <data name="frmImageSettings_btnDefaultToolTip" xml:space="preserve">
+    <value>Επαναφορά ρυθμίσεων εικόνας στις προεπιλεγμένες τιμές τους</value>
+    <comment>Sets image settings to their default values</comment>
+  </data>
+  <data name="Console_Help" xml:space="preserve">
+    <value>&gt; icopy.exe [/copy /file /multiplePages ..] [params]
+
+[params] είναι οι παράμετροι που χρησιμοποιούνται. Αν κάποια δεν είναι καθορισμένη, το $safeprojectname$ χρησιμοποιεί τις τιμές που είναι αποθηκευμένες στις ρυθμίσεις
+
+/copy /c				Απευθείας αντιγραφή απ΄το σαρωτή στον εκτυπωτή, με χρήση των ρυθμίσεων που παρέχονται ή τις προεπιλεγμένες
+/file /ScanToFile /f	Σάρωση σε ένα αρχείο. Εάν ο φάκελος δεν παρέχεται, ένα παράθυρο διαλόγου θα σας επιτρέψει να επιλέξετε πού θα αποθηκεύσετε τη ληφθείσα εικόνα
+/copyMultiplePages		Σάρωση ενός εγγράφου πολλών σελίδων. Επίσης /copymultiplepages
+/pdf					Σάρωση σε PDF. Η διαδρομή εξαγωγής μπορεί να καθοριστεί με την παράμετρο /path
+Παράμετροι:
+
+/adf							Ενεργοποίηση υποστήριξης ADF
+/resolution -ή- /r	[τιμή]		Ορίστε μια έγκυρη ανάλυση σάρωσης σε DPI (π.χ /resolution 100, /r 500)
+/color -ή- /col				Έγχρωμη λήψη
+/grayscale -ή- /gray			Λήψη σε κλίμακα του γκρι
+/text -ή- /bw					Ασπρόμαυρη λήψη (κείμενο)
+/copies -ή- /nc [τιμή]		Ο αριθμός αντιγράφων που θα εκτυπωθούν (προεπιλογή ένα αντίγραφο)
+/scaling -ή- /s				Το ποσοστό κλίμακας (π.χ. /s 150) προεπιλεγμένη τιμή: 100
+/brightness	-ή- /b [τιμή]		Τιμή από -100 έως 100 για φωτεινότητα
+/contrast -ή -	/cnt [τιμή]	Τιμή από -100 έως 100 για αντίθεση
+/preview -ή- /p				Ενεργοποίηση λειτουργίας προεπισκόπησης
+/path "διαδρομή"					Ορίστε το φάκελο για το αρχείο λήψης. Διαδρομές που περιέχουν κενά διαστήματα πρέπει να τίθενται εντός εισαγωγικών
+								(π.χ. /path "C:\my folder\file.jpg"). Έγκυρες επεκτάσεις αρχείων είναι .jpg, .bmp, .gif, .png, ή .pdf για έγγραφα PDF
+/printer "όνομα εκτυπωτή"			Ορίστε το όνομα του εκτυπωτή, εντός εισαγωγικών. Αν δεν δοθεί, θα χρησιμοποιηθεί η προεπιλογή συστήματος
+
+ΣΗΜΕΙΩΣΗ: Οι παράμετροι δεν έχουν διάκριση πεζών-κεφαλαίων
+
+Παραδείγματα:
+&gt; icopy.exe /copy /r 200 /text
+	Αντιγραφή με ανάλυση 200 DPI σε λειτουργία κειμένου, με τις προεπιλεγμένες τιμές φωτεινότητας και αντίθεσης
+&gt; icopy.exe /file /brightness 0 /contrast 10 /path "C:\my folder\file.jpg"
+	Αποθήκευση στο αρχείο "C:\my folder\file.jpg" με φωτεινότητα 0 και αντίθεση 10
+&gt; icopy.exe /copy /printer "Adobe PDF"
+	Εκτύπωση του αρχείου σε PDF με χρήση του Adobe Acrobat (εάν είναι εγκατεστημένο)
+
+ΠΡΟΧΩΡΗΜΕΝΕΣ ΡΥΘΜΊΣΕΙΣ         
+/silent				Χωρίς πλαίσια μηνυμάτων.
+/wiareg /wr			Καταχωρήσεις στοιχείων WIA. Χρήση εάν τα σφάλματα WIA απορρίπτονται κατά την εκτέλεση.
+/register /reg		Καταχωρήσεις του $safeprojectname$ στα κουμπιά του σαρωτή.
+/unregister /unreg	Κατάργηση καταχωρήσεων του $safeprojectname$ από τις εφαρμογές των κουμπιών του σαρωτή.</value>
+    <comment>&gt; icopy.exe [/copy /file /multiplePages ..] [params]
+
+[params] are the parameters to be used. If a parameter is not specified, $safeprojectname$ uses the values stored in settings
+
+/copy /c				Directly copy from scanner to printer, using settings provided or default settings
+/file /ScanToFile /f	Scan to a file. If file path is not provided a dialog will let you choose where to save the acquired image
+/copyMultiplePages		Scan a multipage document. Also /copymultiplepages
+/pdf					Scans to PDF. Output path can be specified with the /path parameter
+Parameters:
+
+/adf							Enable ADF support
+/resolution -or- /r	[value]		Specify a valid scanning resolution in DPI (eg /resolution 100, /r 500)
+/color -or- /col				Color acquisition
+/grayscale -or- /gray			Grayscale acquisition
+/text -or- /bw					Black and white (text) acquisition
+/copies -or- /nc [value]		The number of copies to be printed (default one copy)
+/scaling -or- /s				The scaling percentage (eg /s 150) default value: 100
+/brightness	-or- /b [value]		Value from -100 to 100 for brightness
+/contrast -or -	/cnt [value]	Value from -100 to 100 for constrast
+/preview -or- /p				Enables preview mode
+/path "path"					Specify the path for file acquisition. Paths containing spaces must be put between inverted commas 
+								(eg. /path "C:\my folder\file.jpg"). Valid file estensions are .jpg, .bmp, .gif, .png, or .pdf for PDF docs
+/printer "printer name"			Specify the name of the printer between inverted commas. If not provided, the system default printer is used
+
+NOTE: Parameters are not case sensitive
+
+Examples:
+&gt; icopy.exe /copy /r 200 /text
+	Copy with 200 DPI resolution in text mode, with default brightness and contrast
+&gt; icopy.exe /file /brightness 0 /contrast 10 /path "C:\my folder\file.jpg"
+	Saves to file "C:\my folder\file.jpg" with brighness 0 and contrast 10
+&gt; icopy.exe /copy /printer "Adobe PDF"
+	Prints the file to PDF using Adobe Acrobat (if installed)
+
+ADVANCED PARAMETERS
+/silent				No message boxes.
+/wiareg /wr			Registers WIA components. Use if WIA errors are thrown during execution.
+/register /reg		Registers $safeprojectname$ to the scanner buttons.
+/unregister /unreg	Unregisters $safeprojectname$ from the scanner button applications.</comment>
+  </data>
+  <data name="mainFrm_VersionStatusLabel" xml:space="preserve">
+    <value>Νέα έκδοση διαθέσιμη!</value>
+    <comment>New version available!</comment>
+  </data>
+  <data name="mainFrm_VersionStatusLabelToolTip" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να μεταβείτε στην ιστοσελίδα του $safeprojectname$ και να κάνετε λήψη της τελευταίας έκδοσης</value>
+    <comment>Click here to go to $safeprojectname$ website and download the latest version</comment>
+  </data>
+  <data name="frmImageSettings_tbCompressionToolTip" xml:space="preserve">
+    <value>Ρύθμιση συμπίεσης JPEG (αποθήκευση σε αρχείο μόνο)</value>
+    <comment>Set JPEG compression (Save to File only)</comment>
+  </data>
+  <data name="mainFrm_chkADF" xml:space="preserve">
+    <value>Χρήση τροφοδότη εγγράφων (ADF)</value>
+    <comment>Use Document Feeder (ADF)</comment>
+  </data>
+  <data name="mainFrm_chkADFToolTip" xml:space="preserve">
+    <value>Λήψη των σελίδων με χρήση του αυτόματου τροφοδότη εγγράφων.</value>
+    <comment>Acquire the pages using the Automatic Document Feeder.</comment>
+  </data>
+  <data name="Msg_ScannerWarmingUp" xml:space="preserve">
+    <value>Ο σαρωτής είναι σε προθέρμανση. Παρακαλώ περιμένετε ένα λεπτό και προσπαθήστε πάλι.</value>
+    <comment>The scanner is warming up. Please wait a minute, then try again.</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdates" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+    <comment>Check for updates</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdatesToolTip" xml:space="preserve">
+    <value>Το $safeprojectname$ θα ελέγχει αν μια νεότερη έκδοση είναι διαθέσιμη για λήψη και θα κάνει αναφορά στο χρήστη.
+Δεν θα αποσταλούν πληροφορίες. Απαιτείται σύνδεση στο διαδίκτυο.</value>
+    <comment>$safeprojectname$ will check if a newer version is available for download, and will report it to the user. No information is sent. Requires an internet connection.</comment>
+  </data>
+  <data name="SettingsDialog_lblNote" xml:space="preserve">
+    <value>Σημείωση: Μην αλλάξετε την παρακάτω ρύθμιση αν δεν έχετε προβλήματα με τις ληφθείσες εικόνες</value>
+    <comment>NOTE Don't change the following setting unless you have problems with the acquired images</comment>
+  </data>
+  <data name="SettingsDialog_tabGeneral" xml:space="preserve">
+    <value>Γενικά</value>
+    <comment>General</comment>
+  </data>
+  <data name="SettingsDialog_tabScannerButtons" xml:space="preserve">
+    <value>Κουμπιά σαρωτή</value>
+    <comment>Scanner Buttons</comment>
+  </data>
+  <data name="SettingsDialog_btnResetScanSettings" xml:space="preserve">
+    <value>Επαναφορά</value>
+    <comment>Reset to default</comment>
+  </data>
+  <data name="Msg_ExceptionInDriver" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα στο πρόγραμμα οδήγησης του σαρωτή. Βεβαιωθείτε ότι το πρόγραμμα οδήγησης είναι ενημερωμένο και είναι συμβατό με την έκδοση των Windows.</value>
+    <comment>There was an error in the scanner driver. Please make sure that the driver is updated and is compatible with your Windows version.</comment>
+  </data>
+  <data name="AboutBox_lblDescription" xml:space="preserve">
+    <value>Συνδυάστε το σαρωτή και τον εκτυπωτή σας σε ένα ισχυρό φωτοτυπικό μηχάνημα.</value>
+    <comment>Combine your scanner and printer into a powerful photocopier.</comment>
+  </data>
+  <data name="mainFrm_chkDuplex" xml:space="preserve">
+    <value>Λήψη διπλής όψης</value>
+    <comment>Duplex acquisition</comment>
+  </data>
+  <data name="frmImageSettings_chkCenter" xml:space="preserve">
+    <value>Κέντρο εικόνας</value>
+    <comment>Center image</comment>
+  </data>
+  <data name="frmImageSettings_chkCenterToolTip" xml:space="preserve">
+    <value>Εάν είναι επιλεγμένο, το $safeprojectname$ εκτυπώνει την εικόνα στο κέντρο της σελίδας,
+διαφορετικά η εικόνα θα εκτυπωθεί από την πάνω αριστερή γωνία.</value>
+    <comment>If checked, $safeprojectname$ prints the image in the center of the page, otherwise the image will be printed from the upper left corner.</comment>
+  </data>
+  <data name="mainFrm_chkDuplexToolTip" xml:space="preserve">
+    <value>Χρησιμοποιείται με ADF και λέει στο σαρωτή να χρησιμοποιήσει λήψη διπλής όψης</value>
+    <comment>Used with ADF, tells the scanner to use duplex acquisition</comment>
+  </data>
+  <data name="mainFrm_chkMultipageToolTip" xml:space="preserve">
+    <value>ΛΗΨΗ ΠΟΛΛΑΠΛΩΝ ΣΕΛΙΔΩΝ (CTRL Μ)
+Το $safeprojectname$ θα περιμένει το χρήστη να αλλάξει σελίδα στην πλατφόρμα (ή ADF) για να ξεκινήσει άλλη λήψη.
+Μπορείτε να κάνετε σάρωση πολλών σελίδων μαζί και να τις εκτυπώσετε όλες μαζί ή να τις αποθηκεύσετε σε ένα ενιαίο αρχείο PDF.</value>
+    <comment>MULTIPAGE ACQUISITION (CTRL + M)
+$safeprojectname$ will wait for the user to change the page on the flatbed (or ADF) to start another acquisition.
+You can scan several page at a time and print them all together or save them in a single PDF file.</comment>
+  </data>
+  <data name="mainFrm_chkPDFToolTip" xml:space="preserve">
+    <value>Αποθήκευση του εξαγόμενου σε PDF (CTRL +P)</value>
+    <comment>Save the output to PDF (CTRL +P)</comment>
+  </data>
+  <data name="mainFrm_chkSaveToFileToolTip" xml:space="preserve">
+    <value>Αποθήκευση της εικόνας σε ένα αρχείο (CTRL + F)</value>
+    <comment>Save the image to a file (CTRL + F)</comment>
+  </data>
+  <data name="Msg_FileError" xml:space="preserve">
+    <value>Το $safeprojectname$ δεν μπόρεσε να γράψει στο αρχείο
+
+{0}
+
+Ελέγξτε αν το $safeprojectname$ έχει πρόσβαση εγγραφής στη διαδρομή ή ότι το αρχείο δεν είναι ανοιχτό.</value>
+    <comment>$safeprojectname$ can't write to file
+
+{0}
+
+Check that $safeprojectname$ has write access to the path or that the file is not open.</comment>
+  </data>
+  <data name="Msg_FileAlreadyExists" xml:space="preserve">
+    <value>Το αρχείο {0}
+υπάρχει ήδη. Θέλετε να το αντικαταστήσετε;</value>
+    <comment>The file {0}
+already exists. Would you like to replace it?</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowseFile" xml:space="preserve">
+    <value>Εύρεση...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowsePDF" xml:space="preserve">
+    <value>Εύρεση...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenFile" xml:space="preserve">
+    <value>Άνοιγμα μετά τη λήψη</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenPDF" xml:space="preserve">
+    <value>Άνοιγμα μετά τη λήψη</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToFile" xml:space="preserve">
+    <value>Κατά την αποθήκευση σε αρχείο:</value>
+    <comment>When saving to file:</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToPDF" xml:space="preserve">
+    <value>Κατά την αποθήκευση σε PDF:</value>
+    <comment>When saving to PDF</comment>
+  </data>
+  <data name="SettingsDialog_rbAskFile" xml:space="preserve">
+    <value>Ερώτηση</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbAskPDF" xml:space="preserve">
+    <value>Ερώτηση</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbPathFile" xml:space="preserve">
+    <value>Αποθήκευση στην παρακάτω διαδρομή</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_rbPathPDF" xml:space="preserve">
+    <value>Αποθήκευση στην παρακάτω διαδρομή</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_tabFileSettings" xml:space="preserve">
+    <value>Ρυθμίσεις αρχείων</value>
+    <comment>File Settings</comment>
+  </data>
+  <data name="Msg_CancelAcquisition" xml:space="preserve">
+    <value>Είστε βέβαιος ότι θέλετε να ακυρώσετε τη λειτουργία; 
+Κάντε κλικ στο Ναι για να προχωρήσετε.</value>
+    <comment>Are you sure you want to cancel the operation? Click Yes if you are sure to proceed.</comment>
+  </data>
+  <data name="Msg_CantOpenfile" xml:space="preserve">
+    <value>Το $safeprojectname$ δεν μπόρεσε να εκκινήσει το προκαθορισμένο πρόγραμμα για τον εξής λόγο:
+
+{0}</value>
+    <comment>$safeprojectname$ couldn't launch the predefined program for the following reason:
+
+{0}</comment>
+  </data>
+</root>

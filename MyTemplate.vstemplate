@@ -1,0 +1,137 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>iCopy</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>iCopy</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="iCopy.vbproj" File="iCopy.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <Folder Name="bin" TargetFolderName="bin" />
+      <Folder Name="Build" TargetFolderName="Build">
+        <ProjectItem ReplaceParameters="false" TargetFileName="7za.exe">7za.exe</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="post-build.ps1">post-build.ps1</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="setup.nsi">setup.nsi</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Changelog.txt">Changelog.txt</ProjectItem>
+      <Folder Name="Classes" TargetFolderName="Classes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="clsExact_Binary.vb">clsExact_Binary.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="clsExact_Connection.vb">clsExact_Connection.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="clsExact_EntitiesConnection.vb">clsExact_EntitiesConnection.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="clsExact_Entity.vb">clsExact_Entity.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExitException.vb">ExitException.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="iCopyControl.vb">iCopyControl.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PortableSettingsProvider.vb">PortableSettingsProvider.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Printer.vb">Printer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PropertiesToXML.vb">PropertiesToXML.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Scanner.vb">Scanner.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ScanSettings.vb">ScanSettings.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.vb">Settings.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Utilities.vb">Utilities.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="vistaTaskDialogs.vb">vistaTaskDialogs.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WIAConstants.vb">WIAConstants.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CREDITS.txt">CREDITS.txt</ProjectItem>
+      <Folder Name="Forms" TargetFolderName="Forms">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.vb">AboutBox.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.Designer.vb">AboutBox.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.resx">AboutBox.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExactInfo.vb">ExactInfo.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExactInfo.Designer.vb">ExactInfo.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExactInfo.resx">ExactInfo.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ImageSettings.vb">ImageSettings.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ImageSettings.Designer.vb">ImageSettings.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ImageSettings.resx">ImageSettings.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="mainfrm.vb">mainfrm.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="mainfrm.Designer.vb">mainfrm.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="mainfrm.it-IT.resx">mainfrm.it-IT.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="mainfrm.resx">mainfrm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MorePagesDialog.vb">MorePagesDialog.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MorePagesDialog.Designer.vb">MorePagesDialog.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MorePagesDialog.resx">MorePagesDialog.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SettingsDialog.vb">SettingsDialog.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SettingsDialog.Designer.vb">SettingsDialog.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SettingsDialog.resx">SettingsDialog.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.vb">SplashScreen.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.Designer.vb">SplashScreen.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.resx">SplashScreen.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="iCopy.resources.dll">iCopy.resources.dll</ProjectItem>
+      <Folder Name="Language Files" TargetFolderName="Language Files">
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.bg-BG.resx">WinFormStrings.bg-BG.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.de-DE.resx">WinFormStrings.de-DE.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.el-GR.resx">WinFormStrings.el-GR.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.es-ES.resx">WinFormStrings.es-ES.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.fi-FI.resx">WinFormStrings.fi-FI.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.fr-FR.resx">WinFormStrings.fr-FR.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.hu-HU.resx">WinFormStrings.hu-HU.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.it-IT.resx">WinFormStrings.it-IT.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.ja-JP.resx">WinFormStrings.ja-JP.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.nl-NL.resx">WinFormStrings.nl-NL.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.pl-PL.resx">WinFormStrings.pl-PL.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.pt-BR.resx">WinFormStrings.pt-BR.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.ro-RO.resx">WinFormStrings.ro-RO.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.ru-RU.resx">WinFormStrings.ru-RU.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.sk-SK.resx">WinFormStrings.sk-SK.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.tr-TR.resx">WinFormStrings.tr-TR.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.zh-CN.resx">WinFormStrings.zh-CN.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.zh-TW.resx">WinFormStrings.zh-TW.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="License.txt">License.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.WindowsAPICodePack.dll">Microsoft.WindowsAPICodePack.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="modGlobal.vb">modGlobal.vb</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="false" TargetFileName="app.manifest">app.manifest</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application1.Designer.vb">Application1.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Aboutbgr.jpg">Aboutbgr.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ADS2600W.png">ADS2600W.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn_donateCC_LG.gif">btn_donateCC_LG.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Devices-scanner-icon.png">Devices-scanner-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCopy.gif">iCopy.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCopy_button.png">iCopy_button.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCopy192.png">iCopy192.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCopy2.ico">iCopy2.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCopyAbout.bmp">iCopyAbout.bmp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="imagesT4HFJO6L.jpg">imagesT4HFJO6L.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="InstBann.bmp">InstBann.bmp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="license.rtf">license.rtf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="multipage.png">multipage.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pdf_icon.gif">pdf_icon.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pdficon_large.png">pdficon_large.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Printer-icon.png">Printer-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="printer.gif">printer.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="saveToFile.png">saveToFile.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="scanner-3.ico">scanner-3.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="scanner-3.png">scanner-3.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="scanner.gif">scanner.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="scanner.png">scanner.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="welcome.bmp">welcome.bmp</ProjectItem>
+      </Folder>
+      <Folder Name="Scanner Logs" TargetFolderName="Scanner Logs">
+        <ProjectItem ReplaceParameters="false" TargetFileName="brother ADF.log">brother ADF.log</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="wiaaut.dll">wiaaut.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.resx">WinFormStrings.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WinFormStrings.Designer.vb">WinFormStrings.Designer.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

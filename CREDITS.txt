@@ -1,0 +1,5 @@
+$safeprojectname$ uses some code from iTextSharp open source library for the flate compression.
+iTextSharp is released under the Affero GPL license. I would like to thank the developers for their great library.
+
+URL: http://sourceforge.net/projects/itextsharp/
+

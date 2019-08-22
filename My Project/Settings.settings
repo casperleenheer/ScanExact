@@ -1,0 +1,81 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DeviceID" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintColor" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Location" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">100, 100</Value>
+    </Setting>
+    <Setting Name="StoreLocation" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Culture" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Globalization.CultureInfo" Scope="User">
+      <Value Profile="(Default)">(Default)</Value>
+    </Setting>
+    <Setting Name="RememberSettings" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultPrinter" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultScanner" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrinterSize" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A4</Value>
+    </Setting>
+    <Setting Name="CustomCulture" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LastScanSettings" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="ScanExact.ScanSettings" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastVersionCheck" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2011-01-01</Value>
+    </Setting>
+    <Setting Name="CheckForUpdates" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Silent" Provider="ScanExact.PortableSettingsProvider" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Center" Provider="ScanExact.PortableSettingsProvider" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PDFAskWhereToSave" Provider="ScanExact.PortableSettingsProvider" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PDFOpenAfterAcquisition" Provider="ScanExact.PortableSettingsProvider" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FileOpenAfterAcquisition" Provider="ScanExact.PortableSettingsProvider" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FileAskWhereToSave" Provider="ScanExact.PortableSettingsProvider" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FileSavePath" Provider="ScanExact.PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PDFSavePath" Provider="ScanExact.PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SQLserver" Type="System.String" Scope="User">
+      <Value Profile="(Default)">haarden-sql\mssql2017</Value>
+    </Setting>
+    <Setting Name="ServiceURI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://haarden-sql:8010/service</Value>
+    </Setting>
+    <Setting Name="Administrations" Type="System.String" Scope="User">
+      <Value Profile="(Default)">011</Value>
+    </Setting>
+    <Setting Name="IsConnectionToExactSucceeded" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SettingsDialog" xml:space="preserve">
+    <value>选项</value>
+    <comment>Options</comment>
+  </data>
+  <data name="SettingsDialog_btnCancel" xml:space="preserve">
+    <value>取消 (&amp;C)</value>
+    <comment>&amp;Cancel</comment>
+  </data>
+  <data name="SettingsDialog_btnOk" xml:space="preserve">
+    <value>确定 (&amp;O)</value>
+    <comment>&amp;OK</comment>
+  </data>
+  <data name="SettingsDialog_cboLanguageToolTip" xml:space="preserve">
+    <value>请在已安装的语言中选择一个。
+要安装新语言，请在 $safeprojectname$ 网站中下载并将 xx-XX 文件夹复制到 $safeprojectname$ 安装目录</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPos" xml:space="preserve">
+    <value>保存窗口位置</value>
+    <comment>Remember window position after restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberWindowPosToolTip" xml:space="preserve">
+    <value>如果勾选此项，iCopy 将在启动时还原上次关闭时的窗口位置</value>
+    <comment>If this option is enabled, $safeprojectname$ window will be shown in the position it was when it was closed.</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguage" xml:space="preserve">
+    <value>语言</value>
+    <comment>Language</comment>
+  </data>
+  <data name="SettingsDialog_lblLanguageToolTip" xml:space="preserve">
+    <value>请在已安装的语言中选择一个。
+要安装新语言，请在 $safeprojectname$ 网站中下载并将 xx-XX 文件夹复制到 $safeprojectname$ 安装目录</value>
+    <comment>Chose a language between the installed ones.
+To install a new language, download it from $safeprojectname$ website and
+copy the folder xx-XX to $safeprojectname$ folder</comment>
+  </data>
+  <data name="frmImageSettings" xml:space="preserve">
+    <value>图像设置</value>
+    <comment>Image Settings</comment>
+  </data>
+  <data name="frmImageSettings_lblScaling" xml:space="preserve">
+    <value>缩放</value>
+    <comment>Scaling</comment>
+  </data>
+  <data name="frmImageSettings_lblBrightness" xml:space="preserve">
+    <value>亮度</value>
+    <comment>Brightness</comment>
+  </data>
+  <data name="frmImageSettings_lblContrast" xml:space="preserve">
+    <value>对比度</value>
+    <comment>Contrast</comment>
+  </data>
+  <data name="frmImageSettings_lblResolution" xml:space="preserve">
+    <value>分辨率</value>
+    <comment>Resolution</comment>
+  </data>
+  <data name="frmImageSettings_lblPerc" xml:space="preserve">
+    <value>%</value>
+    <comment>%</comment>
+  </data>
+  <data name="frmImageSettings_tbBrightnessToolTip" xml:space="preserve">
+    <value>设置亮度值</value>
+    <comment>Set brightness value.</comment>
+  </data>
+  <data name="frmImageSettings_tbContrastToolTip" xml:space="preserve">
+    <value>设置对比度</value>
+    <comment>Set contrast value.</comment>
+  </data>
+  <data name="frmImageSettings_tbScalingToolTip" xml:space="preserve">
+    <value>缩放至选定的百分比</value>
+    <comment>Scale the image to the selected percentage</comment>
+  </data>
+  <data name="frmImageSettings_txtBrightnessToolTip" xml:space="preserve">
+    <value>设置亮度值，从 -100 (最暗) 至 100 (最亮)</value>
+    <comment>Set brightness value. Enter a value between -100 (darkest) and 100 (brightest)</comment>
+  </data>
+  <data name="frmImageSettings_txtContrastToolTip" xml:space="preserve">
+    <value>设置对比度值，从 -100 (最灰暗) 至 100 (最明亮)</value>
+    <comment>Set contrast value.  Enter a value from -100 (darker) to 100 (brighter)</comment>
+  </data>
+  <data name="frmImageSettings_txtScalingToolTip" xml:space="preserve">
+    <value>输入缩放百分比，从 1 至 200</value>
+    <comment>Enter the scaling percentage. Value must be between 1 and 200</comment>
+  </data>
+  <data name="mainFrm_btnCopyToolTip" xml:space="preserve">
+    <value>开始复印 (CTRL+S)</value>
+    <comment>Start copy process (CTRL+S)</comment>
+  </data>
+  <data name="mainFrm_btnImageSettings" xml:space="preserve">
+    <value>图像设置 &gt;</value>
+    <comment>Image Settings &gt;&gt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsHide" xml:space="preserve">
+    <value>图像设置 &lt;</value>
+    <comment>Image Settings &lt;&lt;</comment>
+  </data>
+  <data name="mainFrm_btnImageSettingsToolTip" xml:space="preserve">
+    <value>显示高级图像设置 (CTRL+I)</value>
+    <comment>Shows/Hides advanced image settings, which include
+Brightness, Contrast, Quality and Scaling (CTRL+I)</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetup" xml:space="preserve">
+    <value>打印机设置 (&amp;P)</value>
+    <comment>&amp;Printer options...</comment>
+  </data>
+  <data name="mainFrm_btnPrintSetupToolTip" xml:space="preserve">
+    <value>更改打印机或其设置</value>
+    <comment>Change printer and printing options</comment>
+  </data>
+  <data name="mainFrm_btnScanModes" xml:space="preserve">
+    <value>其他扫描模式</value>
+    <comment>Other Scan Modes</comment>
+  </data>
+  <data name="mainFrm_btnScanModesToolTip" xml:space="preserve">
+    <value>显示其它扫描模式</value>
+    <comment>Shows other scan modes</comment>
+  </data>
+  <data name="mainFrm_btnSelScanner" xml:space="preserve">
+    <value>选择扫描仪 (&amp;C)</value>
+    <comment>Choose &amp;scanner...</comment>
+  </data>
+  <data name="mainFrm_btnSelScannerToolTip" xml:space="preserve">
+    <value>显示选择扫描仪对话框</value>
+    <comment>Shows a dialog to choose a different scanner</comment>
+  </data>
+  <data name="mainFrm_btnSettings" xml:space="preserve">
+    <value>设置 (&amp;S)</value>
+    <comment>&amp;Settings</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem0" xml:space="preserve">
+    <value>彩色</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeItem1" xml:space="preserve">
+    <value>黑白</value>
+    <comment>Black &amp; White</comment>
+  </data>
+  <data name="mainFrm_cboPrintModeToolTip" xml:space="preserve">
+    <value>设置打印色彩</value>
+    <comment>Set printing method</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem0" xml:space="preserve">
+    <value>彩色</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem1" xml:space="preserve">
+    <value>灰度</value>
+    <comment>Grayscale</comment>
+  </data>
+  <data name="mainFrm_cboScanModeItem2" xml:space="preserve">
+    <value>文字</value>
+    <comment>Text</comment>
+  </data>
+  <data name="mainFrm_cboScanModeToolTip" xml:space="preserve">
+    <value>选择扫描色彩: 
+彩色 - 扫描成全彩图像，打印色彩将自动设置为“彩色”
+灰度 - 扫描成灰度图像，速度较快，打印色彩将自动设置为“黑白”
+文字 - 扫描成黑白图像，速度最快，适用于文本、书籍复印</value>
+    <comment>Choose the scanning method: 
+COLOURS - Acquired image will be full-color, printing mode will be set to color automatically
+GRAYSCALE - Acquired image will be in grayscale. Scan will be faster. Printer automatically set to Black &amp; White
+TEXT - Acquired image will be black &amp; white. This is the fasted method, useful for text, books and copies</comment>
+  </data>
+  <data name="mainFrm_chkPreview" xml:space="preserve">
+    <value>预览</value>
+    <comment>Preview</comment>
+  </data>
+  <data name="mainFrm_chkPreviewToolTip" xml:space="preserve">
+    <value>显示选择扫描区域对话框</value>
+    <comment>Shows a dialog to select the area to be scanned</comment>
+  </data>
+  <data name="mainFrm_lblCopies" xml:space="preserve">
+    <value>复印份数</value>
+    <comment>N° of copies</comment>
+  </data>
+  <data name="mainFrm_lblScanner" xml:space="preserve">
+    <value>扫描仪</value>
+    <comment>Scanner</comment>
+  </data>
+  <data name="mainFrm_lblPrinter" xml:space="preserve">
+    <value>打印机</value>
+    <comment>Printer</comment>
+  </data>
+  <data name="mainFrm_llblAbout" xml:space="preserve">
+    <value>关于 $safeprojectname$</value>
+    <comment>About $safeprojectname$</comment>
+  </data>
+  <data name="mainFrm_llblSettings" xml:space="preserve">
+    <value>设置</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="mainFrm_nudNCopieToolTip" xml:space="preserve">
+    <value>要复印的份数</value>
+    <comment>The number of copies to be printed</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabel" xml:space="preserve">
+    <value>没有选择打印机</value>
+    <comment>No printer selected</comment>
+  </data>
+  <data name="mainFrm_PrinterStatusLabelToolTip" xml:space="preserve">
+    <value>单击以更改打印机设置</value>
+    <comment>Click to change printer settings</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabel" xml:space="preserve">
+    <value>没有选择扫描仪</value>
+    <comment>No scanner selected</comment>
+  </data>
+  <data name="mainFrm_ScannerstatusLabelToolTip" xml:space="preserve">
+    <value>单击以选择扫描仪</value>
+    <comment>Click to select a different scanner</comment>
+  </data>
+  <data name="Msg_ChooseAScanner" xml:space="preserve">
+    <value>您必须选择一个扫描仪，单击“是”选择一个扫描仪，或单击“否”关闭 $safeprojectname$</value>
+    <comment>You have to chose a scanner. Click Yes to chose the scanner, or No to close $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_ConnectionError" xml:space="preserve">
+    <value>不能链接到扫描仪，请稍后重试</value>
+    <comment>Could not connect to the scanner, please wait for a while then click Retry.</comment>
+  </data>
+  <data name="Msg_ConnectionLost" xml:space="preserve">
+    <value>扫描仪连接丢失，请重新连接扫描仪后重试</value>
+    <comment>Connection with the scanner lost. Please connect it to the computer and click Retry.</comment>
+  </data>
+  <data name="Msg_InsertNumber" xml:space="preserve">
+    <value>请输入 {0} 至 {1} 之间的数字</value>
+    <comment>Please insert a number between -100 and 100.</comment>
+  </data>
+  <data name="Msg_LicenseFileNotFound" xml:space="preserve">
+    <value>找不到 License.txt，请确保此文件在 $safeprojectname$ 的目录中或移步至 http://www.gnu.org/licenses/gpl.html 查看 (连接已复制到剪贴板)</value>
+    <comment>Impossible to find License.txt in $safeprojectname$ folder. Please make sure the file is in $safeprojectname$ directory or read the license text here http://www.gnu.org/licenses/gpl.html (link copied to clipboard)</comment>
+  </data>
+  <data name="Msg_NoScannerConnected" xml:space="preserve">
+    <value>没有连接扫描仪，请连接扫描仪后重试</value>
+    <comment>No scanner connected, please connect a scanner and click Retry.</comment>
+  </data>
+  <data name="Msg_WIAUnregistered" xml:space="preserve">
+    <value>$safeprojectname$ 缺少必要的组件。
+$safeprojectname$ 需要 WIA Automation 组件以正常工作。 
+
+单击“确定”以注册 wiaaut.dll (此操作需要管理员权限)，或单击“取消”关闭 $safeprojectname$</value>
+    <comment>It appears that some components needed by $safeprojectname$ are not registered in your system.
+$safeprojectname$ needs WIA Automation to be registered in order to work properly. 
+
+Click OK if you want $safeprojectname$ to register wiaaut.dll for you, otherwise click Cancel to close $safeprojectname$. This operation requires administrator privileges.</comment>
+  </data>
+  <data name="Msg_ScannerInUse" xml:space="preserve">
+    <value>扫描仪被其他程序占用，请关闭其他程序后重试</value>
+    <comment>The selected scanner is currently used by another application. Please close the application and click Retry</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettings" xml:space="preserve">
+    <value>默认设置 (&amp;D)</value>
+    <comment>&amp;Default</comment>
+  </data>
+  <data name="SettingsDialog_btnResetSettingsToolTip" xml:space="preserve">
+    <value>在下次程序启动时恢复默认值</value>
+    <comment>Reset settings to their default values on next program restart</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettings" xml:space="preserve">
+    <value>保存图像设置</value>
+    <comment>Remember image settings</comment>
+  </data>
+  <data name="SettingsDialog_chkRememberScanSettingsToolTip" xml:space="preserve">
+    <value>如果勾选此项，iCopy 在下次启动时将记住当前图像设置</value>
+    <comment>If selected, $safeprojectname$ will maintain image settings on next restart.</comment>
+  </data>
+  <data name="frmImageSettings_lblDPI" xml:space="preserve">
+    <value>DPI</value>
+    <comment>DPI</comment>
+  </data>
+  <data name="Msg_ResolutionUnavailable" xml:space="preserve">
+    <value>分辨率不可用，请使用其他值</value>
+    <comment>This resolution isn't available. Try with a different one.</comment>
+  </data>
+  <data name="Msg_ResolutionError" xml:space="preserve">
+    <value>设置分辨率时出现错误， 请使用其他分辨率并向 $safeprojectname$ 报告此错误</value>
+    <comment>An error occurred while setting resolution. Please try with another resolution and report this to $safeprojectname$ bug tracker.</comment>
+  </data>
+  <data name="dlgScanMorePages" xml:space="preserve">
+    <value>扫描更多页面</value>
+    <comment>Scan More Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPage" xml:space="preserve">
+    <value>新增其他页面</value>
+    <comment>Add Another Page</comment>
+  </data>
+  <data name="dlgScanMorePages_btnAddPageToolTip" xml:space="preserve">
+    <value>使用当前设置扫描其他页面</value>
+    <comment>Scans another page with the current settings</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrint" xml:space="preserve">
+    <value>打印页面</value>
+    <comment>Print Pages</comment>
+  </data>
+  <data name="dlgScanMorePages_btnPrintToolTip" xml:space="preserve">
+    <value>打印已扫描的页面</value>
+    <comment>Print the acquired images</comment>
+  </data>
+  <data name="dlgScanMorePages_Label1" xml:space="preserve">
+    <value>勾选以新增其他页面或打印已扫描的页面</value>
+    <comment>Choose if you want to add more pages or if you want to print the acquired pages.</comment>
+  </data>
+  <data name="mainFrm_ScanMultiplePages" xml:space="preserve">
+    <value>多页扫描 (&amp;M)</value>
+    <comment>Scan &amp;Multiple Pages</comment>
+  </data>
+  <data name="mainFrm_ScanToFile" xml:space="preserve">
+    <value>扫描至文件 (&amp;F)</value>
+    <comment>Scan to &amp;File</comment>
+  </data>
+  <data name="mainFrm_ScanToFileToolTip" xml:space="preserve">
+    <value>扫描文件并保存至指定的文件</value>
+    <comment>Acquires an image and saves it to a specified file</comment>
+  </data>
+  <data name="mainFrm_lblPaperSize" xml:space="preserve">
+    <value>纸张大小</value>
+    <comment>Paper Size</comment>
+  </data>
+  <data name="frmImageSettings_cboResolutionToolTip" xml:space="preserve">
+    <value>选择扫描分辨率 (DPI) 
+值越高图像质量越高，但扫描速度越慢
+超过 1000 DPI 时，将花费大量时间</value>
+    <comment>Select scanner resolution in DPI (dots per inch) higher values
+correspond to higher quality, but also longer acquisition time.
+Setting more than 1000 DPI will require a lot of extra time.</comment>
+  </data>
+  <data name="Msg_UnauthorizedAccess" xml:space="preserve">
+    <value>$safeprojectname$ 必须以管理员省份运行以注册 wiaaut.dll </value>
+    <comment>$safeprojectname$ must be run as administrator to register wiaaut.dll.</comment>
+  </data>
+  <data name="Msg_InvalidCommandLineParameters" xml:space="preserve">
+    <value>命令行参数有误，请查阅 README.txt 确保参数正确</value>
+    <comment>Some invalid command line parameters have been passed. Please check command line parameter syntax in README.txt.</comment>
+  </data>
+  <data name="Msg_SendErrorReport2" xml:space="preserve">
+    <value>$safeprojectname$ 遇到致命错误：
+
+{0}  
+
+如果您点击“确定”，将打开反馈页面，请将已经复制到剪贴板的错误信息粘贴到反馈页面中，或提交生成的错误文件，错误信息或错误文件不包含个人信息。
+我们非常感谢您为将 $safeprojectname$ 做得更好所付出的，衷心感谢您！</value>
+    <comment>$safeprojectname$ encountered an unhandled exception:
+
+{0}  
+
+We would greatly appreciate your help in making $safeprojectname$ a better application. If you click OK, an error report file will be saved and you will be redirected to $safeprojectname$ bug tracker. Please take the time to file a new bug and upload the generated file.
+
+Thank you for your support!</comment>
+  </data>
+  <data name="Msg_Language" xml:space="preserve">
+    <value>Language will be changed on next restart.</value>
+    <comment>DON'T TRANSLATE THIS</comment>
+  </data>
+  <data name="splashScreen_Loading" xml:space="preserve">
+    <value>{0} 加载中，请稍候……</value>
+    <comment>{0} is loading. Please wait...</comment>
+  </data>
+  <data name="Msg_AlreadyRunning" xml:space="preserve">
+    <value>$safeprojectname$ 已经在运行，您不能运行多个 $safeprojectname$</value>
+    <comment>$safeprojectname$ is already running. You can't run more than one instance of $safeprojectname$.</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabel" xml:space="preserve">
+    <value>JPEG 质量</value>
+    <comment>JPEG Quality</comment>
+  </data>
+  <data name="frmImageSettings_lblCompressionLabelToolTip" xml:space="preserve">
+    <value>扫描为 JPEG 时 JPEG 图像的质量
+值越高图像质量越好，但文件体积越大</value>
+    <comment>Sets the Compression factor when saving to JPEG image using the Scan to Image function. The higher the value, the better the quality and the bigger the file size.</comment>
+  </data>
+  <data name="Msg_ScannerOffline" xml:space="preserve">
+    <value>扫描仪脱机，请重新连接扫描仪或使其回到待机状态</value>
+    <comment>The scanner appears to be offline. Please try to plug the scanner again or to resume it from standby.</comment>
+  </data>
+  <data name="AboutBox_Donate" xml:space="preserve">
+    <value>使用 PayPal 捐赠</value>
+    <comment>Donate using PayPal</comment>
+  </data>
+  <data name="AboutBox_Label1" xml:space="preserve">
+    <value>本程序按 GNU GPL 授权协议发布</value>
+    <comment>This program is distributed under the terms of GNU GPL License.</comment>
+  </data>
+  <data name="AboutBox_LinkLabel3" xml:space="preserve">
+    <value>单击这里查看授权协议</value>
+    <comment>Click here to read license text</comment>
+  </data>
+  <data name="Msg_DriverException" xml:space="preserve">
+    <value>扫描仪驱动出现意外错误。请更新扫描仪驱动，或重启 $safeprojectname$</value>
+    <comment>An exception occurred in your scanner driver. Please check if updates are available on the scanner manufacturer website, otherwise try to restart $safeprojectname$.</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredCancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Msg_WIAUnregisteredInstruction" xml:space="preserve">
+    <value>$safeprojectname$ 需要注册组件</value>
+    <comment>$safeprojectname$ needs to register a component</comment>
+  </data>
+  <data name="Msg_WiaautMissing" xml:space="preserve">
+    <value>请确保 wiaaut.dll 在 $safeprojectname$ 目录中。如果没有，请重新下载并安装 $safeprojectname$</value>
+    <comment>Please check that wiaaut.dll is located in $safeprojectname$ directory.
+If it isn't, please download $safeprojectname$ again.</comment>
+  </data>
+  <data name="Msg_WIARegistrationSuccessful" xml:space="preserve">
+    <value>$safeprojectname$ 成功注册到 WIA Automation Layer，请重启 $safeprojectname$.</value>
+    <comment>$safeprojectname$ has successfully registered WIA Automation Layer. Please restart $safeprojectname$.</comment>
+  </data>
+  <data name="SettingsDialog_cboBitDepthToolTip" xml:space="preserve">
+    <value>设置色彩深度，如果自动值产生错误</value>
+    <comment>Set the BitDepth for Color mode. Modify this option only if you get problems with Auto.</comment>
+  </data>
+  <data name="SettingsDialog_lblBitDepth" xml:space="preserve">
+    <value>彩色模式下强制使用色彩深度</value>
+    <comment>Force Bit Depth for Color Mode</comment>
+  </data>
+  <data name="frmImageSettings_btnDefault" xml:space="preserve">
+    <value>默认</value>
+    <comment>Default</comment>
+  </data>
+  <data name="frmImageSettings_btnDefaultToolTip" xml:space="preserve">
+    <value>恢复设置默认值</value>
+    <comment>Sets image settings to their default values</comment>
+  </data>
+  <data name="Console_Help" xml:space="preserve">
+    <value>&gt; icopy.exe [/选项] [/参数1 /参数2 ...]
+
+[参数] 指定程序使用的参数，如果没有指定 $safeprojectname$ 将使用设置中的值
+
+[可用选项]
+/copy /c				直接将扫描的图像发送到打印机，使用指定的参数或设置中的值
+/file /ScanToFile /f	扫描至文件。如果没有指定路径，将弹出对话框让您选择储存文件的位置
+/copyMultiplePages /copymultiplepages		扫描多页文档
+/pdf					扫描至 PDF 文档。输出路径可以用 /path 参数指定
+
+[可用参数]
+/adf							启用自动输稿器 (ADF)
+/resolution [值] 或 /r [值]		指定合法的扫描分辨率 (DPI) (如 /resolution 100, /r 500)
+/color 或 /col				彩色扫描模式
+/grayscale 或 /gray			灰度扫描模式
+/text 或 /bw					文字扫描模式
+/copies [值] 或 /nc [值]		复印的份数 (默认为1)
+/scaling [值] 或 /s [值]				缩放百分比 (如 /s 150) 默认值: 100
+/brightness [值]	或 /b [值]		亮度值 -100 至 100
+/contrast [值] 或	/cnt [值]	对比度值 -100 至 100
+/preview 或 /p				启用预览模式
+/path "路径"					指定扫描到文件的文件路径。路径中有空格的必须用双引号括起来 ：
+								(如 /path "C:\my folder\file.jpg") 可用的文件拓展名为 .jpg, .bmp, .gif, .png, 或 .pdf 用于 PDF 文档
+/printer "打印机名称"			指定打印机，用双引号括起来。如果没有指定将使用默认打印机
+
+注意: 参数不区分大小写
+
+例子:
+&gt; icopy.exe /copy /r 200 /text
+	使用 200 DPI 分辨率的文字扫描模式，亮度和对比度为默认
+&gt; icopy.exe /file /brightness 0 /contrast 10 /path "C:\my folder\file.jpg"
+	扫描至 "C:\my folder\file.jpg" 文件，亮度为 0 对比度为 10
+&gt; icopy.exe /copy /printer "Adobe PDF"
+	使用 Adobe Acrobat 打印至 PDF 文件 (如果有 Acrobat 打印机) 
+
+[高级参数]
+/silent				寂静模式，不显示消息框
+/wiareg 或 /wr			注册 WIA 组件， 在 WIA 出错时使用
+/register 或 /reg		注册 $safeprojectname$ 为扫描仪按钮事件程序
+/unregister /unreg	取消 $safeprojectname$ 作为扫描仪按钮事件程序</value>
+    <comment>&gt; icopy.exe [/copy /file /multiplePages ..] [params]
+
+[params] are the parameters to be used. If a parameter is not specified, $safeprojectname$ uses the values stored in settings
+
+/copy /c				Directly copy from scanner to printer, using settings provided or default settings
+/file /ScanToFile /f	Scan to a file. If file path is not provided a dialog will let you choose where to save the acquired image
+/copyMultiplePages		Scan a multipage document. Also /copymultiplepages
+/pdf					Scans to PDF. Output path can be specified with the /path parameter
+Parameters:
+
+/adf							Enable ADF support
+/resolution -or- /r	[value]		Specify a valid scanning resolution in DPI (eg /resolution 100, /r 500)
+/color -or- /col				Color acquisition
+/grayscale -or- /gray			Grayscale acquisition
+/text -or- /bw					Black and white (text) acquisition
+/copies -or- /nc [value]		The number of copies to be printed (default one copy)
+/scaling -or- /s				The scaling percentage (eg /s 150) default value: 100
+/brightness	-or- /b [value]		Value from -100 to 100 for brightness
+/contrast -or -	/cnt [value]	Value from -100 to 100 for constrast
+/preview -or- /p				Enables preview mode
+/path "path"					Specify the path for file acquisition. Paths containing spaces must be put between inverted commas 
+								(eg. /path "C:\my folder\file.jpg"). Valid file estensions are .jpg, .bmp, .gif, .png, or .pdf for PDF docs
+/printer "printer name"			Specify the name of the printer between inverted commas. If not provided, the system default printer is used
+
+NOTE: Parameters are not case sensitive
+
+Examples:
+&gt; icopy.exe /copy /r 200 /text
+	Copy with 200 DPI resolution in text mode, with default brightness and contrast
+&gt; icopy.exe /file /brightness 0 /contrast 10 /path "C:\my folder\file.jpg"
+	Saves to file "C:\my folder\file.jpg" with brighness 0 and contrast 10
+&gt; icopy.exe /copy /printer "Adobe PDF"
+	Prints the file to PDF using Adobe Acrobat (if installed)
+
+ADVANCED PARAMETERS
+/silent				No message boxes.
+/wiareg /wr			Registers WIA components. Use if WIA errors are thrown during execution.
+/register /reg		Registers $safeprojectname$ to the scanner buttons.
+/unregister /unreg	Unregisters $safeprojectname$ from the scanner button applications.</comment>
+  </data>
+  <data name="mainFrm_VersionStatusLabel" xml:space="preserve">
+    <value>有更新啦!</value>
+    <comment>New version available!</comment>
+  </data>
+  <data name="mainFrm_VersionStatusLabelToolTip" xml:space="preserve">
+    <value>单击前往 $safeprojectname$ 网站下载最新版</value>
+    <comment>Click here to go to $safeprojectname$ website and download the latest version</comment>
+  </data>
+  <data name="frmImageSettings_tbCompressionToolTip" xml:space="preserve">
+    <value>设置 JPEG 图像质量 (仅在储存至文件时生效)</value>
+    <comment>Set JPEG compression (Save to File only)</comment>
+  </data>
+  <data name="mainFrm_chkADF" xml:space="preserve">
+    <value>使用自动输稿器 (ADF)</value>
+    <comment>Use Document Feeder (ADF)</comment>
+  </data>
+  <data name="mainFrm_chkADFToolTip" xml:space="preserve">
+    <value>使用自动输稿器获取图像</value>
+    <comment>Acquire the pages using the Automatic Document Feeder.</comment>
+  </data>
+  <data name="Msg_ScannerWarmingUp" xml:space="preserve">
+    <value>扫描仪正在预热，请稍后重试</value>
+    <comment>The scanner is warming up. Please wait a minute, then try again.</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdates" xml:space="preserve">
+    <value>检查更新</value>
+    <comment>Check for updates</comment>
+  </data>
+  <data name="SettingsDialog_chkUpdatesToolTip" xml:space="preserve">
+    <value>$safeprojectname$ 将检查是否有新版可供下载</value>
+    <comment>$safeprojectname$ will check if a newer version is available for download, and will report it to the user. No information is sent. Requires an internet connection.</comment>
+  </data>
+  <data name="SettingsDialog_lblNote" xml:space="preserve">
+    <value>注意：如果没有问题，请不要更改下面的设置</value>
+    <comment>NOTE Don't change the following setting unless you have problems with the acquired images</comment>
+  </data>
+  <data name="SettingsDialog_tabGeneral" xml:space="preserve">
+    <value>常规</value>
+    <comment>General</comment>
+  </data>
+  <data name="SettingsDialog_tabScannerButtons" xml:space="preserve">
+    <value>按钮</value>
+    <comment>Scanner Buttons</comment>
+  </data>
+  <data name="SettingsDialog_btnResetScanSettings" xml:space="preserve">
+    <value>恢复默认</value>
+    <comment>Reset to default</comment>
+  </data>
+  <data name="Msg_ExceptionInDriver" xml:space="preserve">
+    <value>扫描仪驱动出现错误。请确认扫描仪驱动与您的 Windows 版本兼容</value>
+    <comment>There was an error in the scanner driver. Please make sure that the driver is updated and is compatible with your Windows version.</comment>
+  </data>
+  <data name="AboutBox_lblDescription" xml:space="preserve">
+    <value>将您扫描仪和打印机结合起来，成为强力复印机！</value>
+    <comment>Combine your scanner and printer into a powerful photocopier.</comment>
+  </data>
+  <data name="mainFrm_chkDuplex" xml:space="preserve">
+    <value>双面扫描</value>
+    <comment>Duplex acquisition</comment>
+  </data>
+  <data name="frmImageSettings_chkCenter" xml:space="preserve">
+    <value>图像居中</value>
+    <comment>Center image</comment>
+  </data>
+  <data name="frmImageSettings_chkCenterToolTip" xml:space="preserve">
+    <value>勾选后 $safeprojectname$ 会将图像居中打印，否则将从左上角对其打印</value>
+    <comment>If checked, $safeprojectname$ prints the image in the center of the page, otherwise the image will be printed from the upper left corner.</comment>
+  </data>
+  <data name="mainFrm_chkDuplexToolTip" xml:space="preserve">
+    <value>在使用自动输稿器时自动双面</value>
+    <comment>Used with ADF, tells the scanner to use duplex acquisition</comment>
+  </data>
+  <data name="mainFrm_chkMultipageToolTip" xml:space="preserve">
+    <value>多页扫描 (CTRL + M)
+$safeprojectname$ 会等待您更换文档一边下一次扫描。您可以一次扫描多张文档再一同打印，或存至一个PDF文件</value>
+    <comment>MULTIPAGE ACQUISITION (CTRL + M)
+$safeprojectname$ will wait for the user to change the page on the flatbed (or ADF) to start another acquisition.
+You can scan several page at a time and print them all together or save them in a single PDF file.</comment>
+  </data>
+  <data name="mainFrm_chkPDFToolTip" xml:space="preserve">
+    <value>保存图像至 PDF (CTRL +P)</value>
+    <comment>Save the output to PDF (CTRL +P)</comment>
+  </data>
+  <data name="mainFrm_chkSaveToFileToolTip" xml:space="preserve">
+    <value>保存图像至文件 (CTRL + F)</value>
+    <comment>Save the image to a file (CTRL + F)</comment>
+  </data>
+  <data name="Msg_FileError" xml:space="preserve">
+    <value>$safeprojectname$ 不能保存
+
+{0}
+
+请确保 $safeprojectname$ 能访问此文件，且没有其他程序占用</value>
+    <comment>$safeprojectname$ can't write to file
+
+{0}
+
+Check that $safeprojectname$ has write access to the path or that the file is not open.</comment>
+  </data>
+  <data name="Msg_FileAlreadyExists" xml:space="preserve">
+    <value>文件 {0} 
+已经存在。您想替换它吗？</value>
+    <comment>The file {0}
+already exists. Would you like to replace it?</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowseFile" xml:space="preserve">
+    <value>浏览...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_btnBrowsePDF" xml:space="preserve">
+    <value>浏览...</value>
+    <comment>Browse...</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenFile" xml:space="preserve">
+    <value>扫描完成后打开文件</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_chkOpenPDF" xml:space="preserve">
+    <value>扫描完成后打开文件</value>
+    <comment>Open after acquisiton</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToFile" xml:space="preserve">
+    <value>保存为文件时：</value>
+    <comment>When saving to file:</comment>
+  </data>
+  <data name="SettingsDialog_lblSaveToPDF" xml:space="preserve">
+    <value>保存为 PDF 时：</value>
+    <comment>When saving to PDF</comment>
+  </data>
+  <data name="SettingsDialog_rbAskFile" xml:space="preserve">
+    <value>每次都询问</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbAskPDF" xml:space="preserve">
+    <value>每次都询问</value>
+    <comment>Ask every time</comment>
+  </data>
+  <data name="SettingsDialog_rbPathFile" xml:space="preserve">
+    <value>保存至以下目录</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_rbPathPDF" xml:space="preserve">
+    <value>保存至以下目录</value>
+    <comment>Save to the following tab</comment>
+  </data>
+  <data name="SettingsDialog_tabFileSettings" xml:space="preserve">
+    <value>文件</value>
+    <comment>File Settings</comment>
+  </data>
+  <data name="Msg_CancelAcquisition" xml:space="preserve">
+    <value>确认取消操作？单击“是”确定取消</value>
+    <comment>Are you sure you want to cancel the operation? Click Yes if you are sure to proceed.</comment>
+  </data>
+  <data name="Msg_CantOpenfile" xml:space="preserve">
+    <value>$safeprojectname$ 不能启动预定义的程序：
+
+{0}</value>
+    <comment>$safeprojectname$ couldn't launch the predefined program for the following reason:
+
+{0}</comment>
+  </data>
+</root>
